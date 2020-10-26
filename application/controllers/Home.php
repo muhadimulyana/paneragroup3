@@ -16,7 +16,7 @@ class Home extends CI_Controller {
         // $data['page_menu'] = 'Dashboard';
 		// $data['map'] = '<li class="breadcrumb-item active">Dashboard</li>';
 		$lang = $this->lang->line('text_nation');
-
+        //echo $lang; die;
 		//set cookie if not exist
 		// if(!isset($_COOKIE['device-browser'])) {
 			
