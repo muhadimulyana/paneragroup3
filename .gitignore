@@ -34,3 +34,6 @@ user_guide
 system
 readme.rst
 
+assets/js
+assets/scss
+
