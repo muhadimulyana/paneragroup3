@@ -39,134 +39,88 @@
 			display: none;
 		}
 
-		/* .bg-animation-left {
-			background: rgba(255, 255, 255, 0.8) !important;
-		} */
+		@font-face {
+			font-family: Rimouski;
+			src: url('fonts/rimouski sb.ttf');
+		}
 
-		/* .area {
-			background: #f8f9fc;
-			background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+		@font-face {
+			font-family: Couture;
+			src: url('fonts/couture-bld.otf');
+		}
 
+		@font-face {
+			font-family: Pala;
+			src: url('fonts/pala.ttf');
+		}
 
-		} */
+		.font-rimouski {
+			font-family: Rimouski !important;
+			font-size: 15px !important;
+			text-transform: capitalize !important;
 
-		.circles {
+		}
+
+		.font-couture {
+			font-family: Couture !important;
+		}
+
+		.font-pala {
+			font-family: Pala !important;
+		}
+
+		.bg-tp-blue {
+			background-color: rgba(175, 203, 245, 0.465) !important;
+		}
+
+		.bg-overlay-navy {
+			background-color: rgba(15, 15, 140, 0.57);
+			/* background-color: rgba(60, 72, 88, 0.7); */
 			position: absolute;
 			top: 0;
+			right: 0;
 			left: 0;
+			bottom: 0;
 			width: 100%;
 			height: 100%;
-			overflow: hidden;
-			z-index: -1;
 		}
 
-		.circles li {
+		.bg-overlay-white {
+			background-color: rgba(255, 255, 255, 0.7);
+			/* background-color: rgba(60, 72, 88, 0.7); */
 			position: absolute;
-			display: block;
-			list-style: none;
-			width: 20px;
-			height: 20px;
-			background: rgba(47, 86, 212, 0.1);
-			animation: animate 25s linear infinite;
-			bottom: -150px;
-
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100%;
 		}
 
-		.circles li:nth-child(1) {
-			left: 25%;
-			width: 80px;
-			height: 80px;
-			animation-delay: 0s;
+		.text-navy {
+			color: #282c73;
 		}
 
+		@media only screen and (max-width: 991px) {
 
-		.circles li:nth-child(2) {
-			left: 10%;
-			width: 20px;
-			height: 20px;
-			animation-delay: 2s;
-			animation-duration: 12s;
-		}
-
-		.circles li:nth-child(3) {
-			left: 70%;
-			width: 20px;
-			height: 20px;
-			animation-delay: 4s;
-		}
-
-		.circles li:nth-child(4) {
-			left: 40%;
-			width: 60px;
-			height: 60px;
-			animation-delay: 0s;
-			animation-duration: 18s;
-		}
-
-		.circles li:nth-child(5) {
-			left: 65%;
-			width: 20px;
-			height: 20px;
-			animation-delay: 0s;
-		}
-
-		.circles li:nth-child(6) {
-			left: 75%;
-			width: 110px;
-			height: 110px;
-			animation-delay: 3s;
-		}
-
-		.circles li:nth-child(7) {
-			left: 35%;
-			width: 150px;
-			height: 150px;
-			animation-delay: 7s;
-		}
-
-		.circles li:nth-child(8) {
-			left: 50%;
-			width: 25px;
-			height: 25px;
-			animation-delay: 15s;
-			animation-duration: 45s;
-		}
-
-		.circles li:nth-child(9) {
-			left: 20%;
-			width: 15px;
-			height: 15px;
-			animation-delay: 2s;
-			animation-duration: 35s;
-		}
-
-		.circles li:nth-child(10) {
-			left: 85%;
-			width: 150px;
-			height: 150px;
-			animation-delay: 0s;
-			animation-duration: 11s;
-		}
-
-
-
-		@keyframes animate {
-
-			0% {
-				transform: translateY(0) rotate(0deg);
-				opacity: 1;
-				border-radius: 0;
+			.logo-panera {
+				height: 50px !important;
 			}
 
-			100% {
-				transform: translateY(-1000px) rotate(720deg);
-				opacity: 0;
-				border-radius: 50%;
+			#navigation {
+				position: absolute;
+				top: 74px;
+				left: 0;
+				width: 100%;
+				display: none;
+				height: auto;
+				padding-bottom: 0;
+				overflow: auto;
+				border-top: 1px solid #050b36;
+				border-bottom: 1px solid #050b36;
+				background-color: #626f9eeb;
 			}
 
-		}
-
-		@media only screen and (max-width: 700px) {
 			.text-lang {
 				display: inline;
 			}
@@ -174,23 +128,6 @@
 			.logo-panera {
 				height: 50px !important;
 			}
-
-			.des-side {
-				display: none;
-			}
-
-			.mob-side {
-				display: block !important;
-			}
-
-			/* .main-slider {
-				height: 100vh;
-			} */
-
-			.share-w {
-				display: block !important;
-			}
-
 
 		}
 
@@ -211,13 +148,12 @@
 	<!-- Loader -->
 
 	<!-- Navbar STart -->
-	<header id="topnav" class="defaultscroll sticky bg-white">
+	<header id="topnav" class="defaultscroll sticky" style="position:absolute">
 		<div class="container">
 			<!-- Logo container-->
 			<div>
 				<a class="logo" style="padding: 5px 0 0 0;" href="<?= base_url(); ?>">
-					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera.png" style="height: 65px;"
-						alt="">
+					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/pan-era.png" height="45" alt="">
 				</a>
 			</div>
 			<!-- End Logo container-->
@@ -241,10 +177,11 @@
 					<?php $menu = $this->Menu_m->getmenubyLang($this->lang->line('text_nation'))->result(); 
 					foreach($menu as $row) : ?>
 					<?php if($row->HAVE_SUB == 0) : ?>
-					<li style="margin: 0 5px;"><a href="javascript:void"><?= $row->MENU; ?></a></li>
+					<li style="margin: 0 5px;"><a href="javascript:void" class="text-white"><?= $row->MENU; ?></a></li>
 					<?php else : ?>
 					<li style="margin: 0 5px;" class="has-submenu">
-						<a href="javascript:void(0)"><?= $row->MENU; ?></a><span class="menu-arrow"></span>
+						<a href="javascript:void(0)" class="text-white"><?= $row->MENU; ?></a><span
+							class="menu-arrow border-white"></span>
 						<ul class="submenu megamenu">
 							<li>
 								<ul>
@@ -283,22 +220,23 @@
 
 	<?= $contents; ?>
 
-	<!-- <div id="wave" class="position-relative" style="margin-top: 50px;">
+	<div id="wave" class="position-relative" style="margin-top: 50px;">
 		<div class="shape overflow-hidden text-footer">
-			<img class="img-fluid" src="<?= base_url(); ?>assets/images/wave/waven.svg" alt="">
+			<img class="" src="<?= base_url(); ?>assets/front/images/biji_plastik/wave.svg" alt="">
 		</div>
-	</div> -->
+	</div>
+
 
 	<!-- Footer Start -->
-	<footer class="footer border bg-transparent area">
+	<footer class="footer border-0 pb-0"
+		style="margin-top: -60px; background:url('<?= base_url(); ?>assets/front/images/biji_plastik/footer.png'); background-size: cover;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
 					<a href="#" class="logo-footer">
-						<img src="<?= base_url(); ?>assets/images/logo/panera.png" height="75"
-							style="border-radius: 10px;" alt="">
+						<h2 class="text-light">Pan Era Group</h2>
 					</a>
-					<p class="mt-4 text-muted">Jalan Kapuk Raya No. 88 E, F, G Penjaringan Jakarta Utara DKI Jakarta
+					<p class="mt-4 text-foot">Jalan Kapuk Raya No. 88 E, F, G Penjaringan Jakarta Utara DKI Jakarta
 						14460
 						Indonesia</p>
 					<ul class="list-unstyled social-icon social mb-0 mt-4">
@@ -316,59 +254,59 @@
 				<!--end col-->
 
 				<div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-dark footer-head">Company</h4>
+					<h4 class="text-light footer-head">Company</h4>
 					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="<?= site_url('profile#company'); ?>" class="text-muted"><i
+						<li><a href="<?= site_url('profile#company'); ?>" class="text-foot"><i
 									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_profile'); ?></a></li>
-						<li><a href="<?= site_url('profile#vision'); ?>" class="text-muted"><i
+						<li><a href="<?= site_url('profile#vision'); ?>" class="text-foot"><i
 									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_vision'); ?></a></li>
-						<li><a href="<?= site_url('news'); ?>" class="text-muted"><i
+						<li><a href="<?= site_url('news'); ?>" class="text-foot"><i
 									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_news'); ?></a></li>
-						<li><a href="<?= site_url('management'); ?>" class="text-muted"><i
+						<li><a href="<?= site_url('management'); ?>" class="text-foot"><i
 									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_hr'); ?></a></li>
-						<li><a href="<?= site_url('career'); ?>" class="text-muted"><i
+						<li><a href="<?= site_url('career'); ?>" class="text-foot"><i
 									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_career'); ?></a></li>
-						<!-- <li><a href="page-jobs.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<!-- <li><a href="page-jobs.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Careers</a></li>
-						<li><a href="page-blog-grid.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="page-blog-grid.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Blog</a></li>
-						<li><a href="auth-cover-login.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="auth-cover-login.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Login</a></li> -->
 					</ul>
 				</div>
 				<!--end col-->
 
 				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-dark footer-head">Usefull Links</h4>
+					<h4 class="text-light footer-head">Usefull Links</h4>
 					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="javascript:void" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Terms
 								of Services</a></li>
-						<li><a href="javascript:void" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Privacy Policy</a></li>
-						<li><a href="javascript:void" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Sitemap</a></li>
-						<!-- <li><a href="changelog.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<!-- <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Changelog</a></li>
-						<li><a href="components.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="components.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Components</a></li> -->
 					</ul>
 				</div>
 				<!--end col-->
 
 				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-dark footer-head">Subscribe</h4>
-					<p class="mt-4 text-muted">Sign up and receive the latest news and job opportunities via email.</p>
+					<h4 class="text-light footer-head">Subscribe</h4>
+					<p class="mt-4 text-foot">Sign up and receive the latest news and job opportunities via email.</p>
 					<form>
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="foot-subscribe foot-white form-group position-relative">
-									<label class="text-muted">Write and submit your email <span
+									<label class="text-foot">Write and submit your email <span
 											class="text-danger">*</span></label>
 									<i data-feather="mail" class="fea icon-sm icons"></i>
 									<input type="email" name="email" id="emailsubscribe"
@@ -388,35 +326,16 @@
 			<!--end row-->
 		</div>
 		<!--end container-->
-		<ul class="circles">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
 	</footer>
 	<!--end footer-->
-	<footer class="footer footer-bar bg-light border">
+	<footer class="footer footer-bar border-0" style="background-color: #30326b;">
 		<div class="container text-center">
 			<div class="row align-items-center">
-				<div class="col-sm-9">
+				<div class="col-sm-6">
 					<div class="text-sm-left">
-						<p class="mb-0 text-muted">© 2020 PAN ERA Group. All rights reserved.
+						<p class="mb-0">© 2020 PAN ERA GROUP. All rights reserved</a>.
 						</p>
 					</div>
-				</div>
-				<!--end col-->
-
-				<div class="col-sm-3 mt-sm-0 pt-2 pt-sm-0">
-					<p class="mb-0 text-muted">Crafted with <i class="mdi mdi-heart text-danger"></i> by
-						IT Team.
-					</p>
 				</div>
 				<!--end col-->
 			</div>
@@ -428,7 +347,7 @@
 	<!-- Footer End -->
 
 	<!-- Back to top -->
-	<a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+	<a href="#" class="btn btn-icon btn-pills btn-light back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
 	<!-- Back to top -->
 
 	<!-- javascript -->
