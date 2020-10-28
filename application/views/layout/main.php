@@ -101,6 +101,7 @@
 			color: #282c73;
 		}
 
+
 		@media only screen and (max-width: 991px) {
 
 			.logo-panera {

@@ -23,6 +23,25 @@
 		background-color: rgba(15, 15, 140, 0.57);
 	}
 
+	.img-product {
+		max-width: 500px;
+	}
+
+	@media only screen and (max-width: 991px) {
+		.flex-direction-nav a {
+			display: none;
+		}
+
+		.img-product {
+			max-width: 100%;
+		}
+
+		.kegiatan {
+			max-height: 100% !important;
+			overflow: hidden;
+		}
+	}
+
 </style>
 
 <!-- Hero Start -->
@@ -71,26 +90,26 @@
 		</div>
 		<!--end row-->
 		<div class="row align-items-center">
-			<div class="col-lg-12 col-md-12 col-12 mt-4 mt-sm-0 pt-1 pt-sm-0">
+			<div class="col-lg-12 col-md-12 col-12 mt-md-3 mt-sm-0 pt-1 pt-sm-0">
 				<div class="home-product text-center justify-content-center">
 					  <ul class="slides">
 						<li>
-							<img class="img-fluid" style="max-width: 500px;"
+							<img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco tebal.png" />
 							<h4 class="text-center">Loco Tebal</h4>
 						</li>
 						    <li>
-							    <img class="img-fluid" style="max-width: 500px;"
+							    <img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco rainbow.png" />
 							<h4 class="text-center">Loco Rainbow</h4>
 						</li>
 						    <li>
-							<img class="img-fluid" style="max-width: 500px;"
+							<img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco eco.png" />
 							<h4 class="text-center">Loco Ekonomis</h4>
 						</li>
 						<li>
-							<img class="img-fluid" style="max-width: 500px;"
+							<img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco anti panas.png" />
 							<h4 class="text-center">Loco Anti Panas</h4>
 						</li>
@@ -289,4 +308,63 @@
 	<!--end container-->
 </section>
 <!--end section-->
-<br><br><br><br><br><br><br><br>
+<!--end container-->
+<div class="col-12 p-0">
+	<h2 class="text-center p-2 text-white mb-0" style="background-color:rgb(7, 2, 76, 0.8); ">Berita Terbaru</h2>
+</div>
+<section class="section pt-5" style="background-color: #c3d7f9;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 order-2 order-md-1">
+				<h5 class="text-center p-2 text-white mb-2 rounded" style="background-color:rgb(7, 2, 76, 0.8); ">
+					Kegiatan
+					Terbaru
+				</h5>
+				<div class="kegiatan" style="max-height: 475px; overflow: auto;">
+					<div class="col-md-12 p-0 mb-2">
+						<div class="card border-0 work-container work-classic">
+							<div class="card-body p-0">
+								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
+									style="background-image: url('http://localhost/paneragroup/assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+								<div class="content p-3">
+									<h5 class="mb-0"><a href="javascript:void(0)" class="text-dark title">Iphone
+											mockup</a></h5>
+									<h6 class="text-muted tag mb-0">Branding</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 p-0 mb-2">
+						<div class="card border-0 work-container work-classic">
+							<div class="card-body p-0">
+								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
+									style="background-image: url('http://localhost/paneragroup/assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+								<div class="content p-3">
+									<h5 class="mb-0"><a href="javascript:void(0)" class="text-dark title">Iphone
+											mockup</a></h5>
+									<h6 class="text-muted tag mb-0">Branding</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 p-0 mb-2">
+						<div class="card border-0 work-container work-classic">
+							<div class="card-body p-0">
+								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
+									style="background-image: url('http://localhost/paneragroup/assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+								<div class="content p-3">
+									<h5 class="mb-0"><a href="javascript:void(0)" class="text-dark title">Iphone
+											mockup</a></h5>
+									<h6 class="text-muted tag mb-0">Branding</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 order-1 order-md-2">
+				<img src="<?= base_url(); ?>assets/images/home/sumpah pemuda-01.svg" class="img-fluid" alt="">
+			</div>
+		</div>
+	</div>
+</section>
