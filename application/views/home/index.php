@@ -13,6 +13,16 @@
 		text-align: right;
 	}
 
+	.bg-transition:after {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(15, 15, 140, 0.57);
+	}
+
 </style>
 
 <!-- Hero Start -->
@@ -86,14 +96,197 @@
 						</li>
 					</ul>
 				</div>
-				<div class="mt-4 pt-2 text-center">
-					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase">Selengkapnya</a>
+				<div class="mt-2 pt-2 text-center">
+					<a href="javascript:void(0)" class="btn btn-dark btn-lg btn-pills text-uppercase"
+						style="background-color: #282c73 !important;">Selengkapnya</a>
 				</div>
 			</div>
 			<!--end col-->
 		</div>
 		<!--end row-->
+		<div class="row mt-5">
+			<div class="col-lg-12">
+				<div class="mt-5 pt-2 text-center">
+					<h3 class="mb-2">Kami Adalah Organisasi <br> Yang Berdedikasi Pada Alam, Berorientasi Pada Kualitas
+					</h3>
+					<p class="para-desc mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!--end container-->
 </section>
 <!--end section-->
+
+<!-- CTA Start -->
+<!-- <section class="section bg-cta"
+	style="background: url('<?= base_url(); ?>assets/images/home/transition1.png') center center; background-size:cover;"
+	id="cta">
+	<div class="bg-overlay bg-overlay-gradient"></div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<div class="section-title">
+					<h4 class="title title-dark text-white mb-4">PAN ERA GROUP</h4>
+					<p class="text-light para-desc para-dark mx-auto">Start working with PAN ERA GROUP that can provide
+						everything you need to generate skills, communication, and experience.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+<!--end section-->
+<!-- CTA End -->
+
+<!-- transition -->
+<section class="section p-0 trans-slider">
+	<div class="bg-overlay bg-overlay-gradient"></div>
+	<ul class="slides">
+		<li class="bg-slider bg-transition d-flex align-items-center"
+			style="background-image:url('<?= base_url(); ?>assets/images/home/transition1.png'); background-size: cover; min-height: 500px; background-position: center;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<div class="section-title position-relative" style="z-index:1;">
+							<h4 class="title title-dark text-white mb-4">PAN ERA GROUP</h4>
+							<p class="text-light para-desc para-dark mx-auto">Start working with PAN ERA GROUP that can
+								provide
+								everything you need to generate skills, communication, and experience.</p>
+						</div>
+					</div>
+					<!--end col-->
+				</div>
+				<!--end row-->
+			</div>
+		</li>
+		<li class="bg-slider bg-transition d-flex align-items-center"
+			style="background-image:url('<?= base_url(); ?>assets/images/home/transtion2.jpg'); background-size: cover; min-height: 500px; background-position: center;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<div class="section-title position-relative" style="z-index:1;">
+							<h4 class="title title-dark text-white mb-4">PAN ERA GROUP</h4>
+							<p class="text-light para-desc para-dark mx-auto">Start working with PAN ERA GROUP that can
+								provide
+								everything you need to generate skills, communication, and experience.</p>
+						</div>
+					</div>
+					<!--end col-->
+				</div>
+				<!--end row-->
+			</div>
+		</li>
+	</ul>
+</section>
+<!--end section-->
+<!-- Services Start -->
+<section class="section" style="background-color: #c3d7f9;">
+	<div class="container pb-lg-4 mb-md-5 mb-4">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<div class="section-title mb-4 pb-2">
+					<h4 class="title mb-4 text-navy">Bisnis Kami</h4>
+					<p class="para-desc mb-0 mx-auto text-navy">Kami adalah organisasi yang berdedikasi pada alam,
+						<br> berorientasi pada kualitas.
+					</p>
+				</div>
+			</div>
+			<!--end col-->
+		</div>
+		<!--end row-->
+
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-12 mt-5">
+				<div class="features text-center">
+					<div class="image position-relative d-inline-block">
+						<img src="<?= base_url(); ?>assets/images/home/build.png" class="avatar"
+							style="height: 85px; width: 85px;" alt="">
+					</div>
+
+					<div class="content mt-4">
+						<h4 class="title-2"><a href="<?= site_url('profile#company'); ?>" class="text-navy">Profil
+								Perusahaan</a></h4>
+						<p class="text-navy mb-0">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan Era
+							Group</p>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+
+			<div class="col-md-4 col-12 mt-5">
+				<div class="features text-center">
+					<div class="image position-relative d-inline-block">
+						<img src="<?= base_url(); ?>assets/images/home/visi.png" class="avatar"
+							style="height: 85px; width: 85px;" alt="">
+					</div>
+
+					<div class="content mt-4">
+						<h4 class="title-2"><a class="text-navy" href="<?= site_url('profile#vision'); ?>">Visi &
+								Misi</a></h4>
+						<p class="text-navy mb-0">Ambisi kami yang kemudian menjadi daya dorong untuk terus maju dan
+							berkembang</p>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+
+			<div class="col-md-4 col-12 mt-5">
+				<div class="features text-center">
+					<div class="image position-relative d-inline-block">
+						<img src="<?= base_url(); ?>assets/images/home/biji.png" class="avatar"
+							style="height: 85px; width: 85px;" alt="">
+					</div>
+
+					<div class="content mt-4">
+						<h4 class="title-2"><a class="text-navy" href="<?= site_url('product#resin'); ?>">Bijih Plastik
+								Daur Ulang</a>
+						</h4>
+						<p class="text-navy mb-0">Produk ramah lingkungan yang menjadi inti dan asal identitas kami
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+
+			<div class="col-md-4 col-12 mt-5">
+				<div class="features text-center">
+					<div class="image position-relative d-inline-block">
+						<img src="<?= base_url(); ?>assets/images/home/management.png" class="avatar"
+							style="height: 85px; width: 85px;" alt="">
+					</div>
+
+					<div class="content mt-4">
+						<h4 class="title-2"><a class="text-navy" href="<?= site_url('management'); ?>">Manajemen SDM</a>
+						</h4>
+						<p class="text-navy mb-0">Filosofi manajemen sumber daya manusia kami untuk berkembang bersama
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+
+			<div class="col-md-4 col-12 mt-5">
+				<div class="features text-center">
+					<div class="image position-relative d-inline-block">
+						<img src="<?= base_url(); ?>assets/images/home/job.png" class="avatar"
+							style="height: 85px; width: 85px;" alt="">
+					</div>
+
+					<div class="content mt-4">
+						<h4 class="title-2"><a class="text-navy" href="<?= site_url('career'); ?>">Kesempatan
+								Berkarir</a></h4>
+						<p class="text-navy mb-0">Daftar lowongan posisi yang sedang tersedia beserta instruksi
+							pelamaran</p>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+		</div>
+	</div>
+	<!--end container-->
+</section>
+<!--end section-->
+<br><br><br><br><br><br><br><br>
