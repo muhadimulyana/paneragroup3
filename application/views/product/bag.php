@@ -10,7 +10,7 @@
 	style="background-image:url('<?= base_url(); ?>assets/images/product/background 2.png'); background-size: cover; min-height: 500px; background-position: center;">
 	<div class="bg-overlay-navy"></div>
 	<div class="container pb-lg-4 mb-md-5 mb-4">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center mt-5">
 			<div class="col-md-6">
 				<h1 class="heading text-white mb-3">Kantong Plastik</h1>
 				<p class="text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
