@@ -199,7 +199,7 @@
 					<li class="has-submenu" style="margin: 0 5px;">
 						<a href="javascript:void(0)"><img src="<?= base_url(); ?>assets/images/flags/id.png" alt=""
 								width="25px;"><span class="text-lang"> Bahasa Indonesia</span></a><span
-							class="menu-arrow"></span>
+							class="menu-arrow border-white"></span>
 						<ul class="submenu megamenu">
 							<li>
 								<ul>
