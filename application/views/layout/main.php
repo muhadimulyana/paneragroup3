@@ -32,8 +32,11 @@
 	<link href="<?= base_url(); ?>assets/front/css/colors/default.css" rel="stylesheet" id="color-opt">
 	<!-- Foxx -->
 	<link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/foxx/foxx-css/foxx.css">
+	<!-- AOS -->
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/aos/aos.css">
 	<!-- JQuery -->
 	<script src="<?= base_url(); ?>assets/front/js/jquery-3.5.1.min.js"></script>
+
 	<style>
 		.text-lang {
 			display: none;
@@ -358,7 +361,7 @@
 	<!-- Magnific Popup -->
 	<script src="<?= base_url(); ?>assets/front/js/jquery.magnific-popup.min.js"></script>
 	<script src="<?= base_url(); ?>assets/front/js/magnific.init.js"></script>
-	<script src="<?= base_url(); ?>assets/front/js/portfolio.init.js"></script>
+	<!-- <script src="<?= base_url(); ?>assets/front/js/portfolio.init.js"></script> -->
 	<!-- SLIDER -->
 	<script src="<?= base_url(); ?>assets/front/js/owl.carousel.min.js "></script>
 	<script src="<?= base_url(); ?>assets/front/js/owl.init.js "></script>
@@ -379,24 +382,28 @@
 	<script src="<?= base_url(); ?>assets/plugins/foxx/foxx.js"></script>
 	<!-- Main Js -->
 	<script src="<?= base_url(); ?>assets/front/js/app.js"></script>
+	<!-- AOS Js -->
+	<script src="<?= base_url(); ?>assets/plugins/aos/aos.js"></script>
 
 	<script>
-		$(function () {
-			// <?php if (!isset($_COOKIE['device-browser'])): setcookie('device-browser', 'Chrome', time() + (86400 * 30), "/"); ?>
+		//$(function () {
+		// <?php if (!isset($_COOKIE['device-browser'])): setcookie('device-browser', 'Chrome', time() + (86400 * 30), "/"); ?>
 
-			// fx.toast.info({
-			// 		title: 'This website use cookies',
-			// 		body: 'By continuing to browse, you are agreeing to our use of cookies as explained in our <a style="text-decoration: underline;" target="_blank" href="https://www.paneragroup.com/company/privacy">Privacy and Policy</a>',
-			// 		opt: {
-			// 			css: 'light',
-			// 			position: 'place_bottom_right',
-			// 			timeOut: 20000,
-			// 			delay: 0,
-			// 			dismiss: true
-			// 		}
-			// 	}) 
-			// <?php endif; ?>
-		});
+		// fx.toast.info({
+		// 		title: 'This website use cookies',
+		// 		body: 'By continuing to browse, you are agreeing to our use of cookies as explained in our <a style="text-decoration: underline;" target="_blank" href="https://www.paneragroup.com/company/privacy">Privacy and Policy</a>',
+		// 		opt: {
+		// 			css: 'light',
+		// 			position: 'place_bottom_right',
+		// 			timeOut: 20000,
+		// 			delay: 0,
+		// 			dismiss: true
+		// 		}
+		// 	}) 
+		// <?php endif; ?>
+		//});
+
+		AOS.init();
 
 	</script>
 </body>

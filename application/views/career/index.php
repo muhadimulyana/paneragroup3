@@ -43,6 +43,7 @@
                 <h5 class="text-navy">Gabung Bersama</h5>
                 <h1 class="text-navy">Pan Era Group</h5>
                 <p class="text-navy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="javascript:void(0)" class="btn bg-navy btn-pills btn-xl text-white" style="background-color: #282c73 !important;">Daftar Lowongan</a>
             </div>
             <div class="col-md-6 order-1 order-md-2 mb-2 text-center">
                 <img src="<?= base_url(); ?>assets/images/career/vector.png" class="img-fluid" alt="">
@@ -57,7 +58,7 @@
         <div class="row text-center">
             <div class="col-md-12">
                 <h5 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur <br><br> Lectus sit amet est placerat in:</h5>
-                <a href="javascript:void(0)" class="btn btn-light btn-pills btn-xl">hrd@paneragroup.com</a><br>
+                <a href="javascript:void(0)" class="btn btn-light btn-pills btn-lg">hrd@paneragroup.com</a><br>
                 <small class="text-white">Ut tellus elementum sagittis vitae</small>
                 <h5 class="text-white mt-3">Amet tellus cras adipiscing enim eu turpis egestas. Sed velit dignissim sodales ut eu sem integer vitae. Turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</h5>
         </div>

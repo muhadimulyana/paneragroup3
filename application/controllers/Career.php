@@ -17,6 +17,14 @@ class Career extends CI_Controller {
         $data['contents'] = $this->load->view('career/index', $data, true);
 		$this->load->view('layout/main', $data);
 	}
+	
+	public function list()
+	{
+		$lang = $this->lang->line('text_nation');
+        $data = [];
+        $data['contents'] = $this->load->view('career/list', $data, true);
+		$this->load->view('layout/main', $data);
+	}
 
 	public function detail()
 	{
