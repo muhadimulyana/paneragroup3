@@ -25,4 +25,20 @@ class Profile extends CI_Controller {
         $data['contents'] = $this->load->view('profile/vision', $data, true);
 		$this->load->view('layout/main', $data);
 	}
+
+	public function eri()
+	{
+		$lang = $this->lang->line('text_nation');
+        $data = [];
+        $data['contents'] = $this->load->view('profile/eri', $data, true);
+		$this->load->view('layout/main', $data);
+	}
+
+	public function era()
+	{
+		$lang = $this->lang->line('text_nation');
+        $data = [];
+        $data['contents'] = $this->load->view('profile/era', $data, true);
+		$this->load->view('layout/main', $data);
+	}
 }
