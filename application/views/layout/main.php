@@ -224,11 +224,11 @@
 
 	<?= $contents; ?>
 
-	<div id="wave" class="position-relative" style="margin-top: 50px;">
+	<!-- <div id="wave" class="position-relative" style="margin-top: 50px;">
 		<div class="shape overflow-hidden text-footer">
 			<img class="" src="<?= base_url(); ?>assets/front/images/biji_plastik/wave.svg" alt="">
 		</div>
-	</div>
+	</div> -->
 
 
 	<!-- Footer Start -->
