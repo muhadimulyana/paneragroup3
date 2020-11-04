@@ -19,4 +19,12 @@ class Product extends CI_Controller {
 		$this->load->view('layout/main', $data);
 	}
 
+	public function plastic_resin()
+	{
+		$lang = $this->lang->line('text_nation');
+        $data = [];
+        $data['contents'] = $this->load->view('product/biji', $data, true);
+		$this->load->view('layout/main', $data);
+	}
+
 }

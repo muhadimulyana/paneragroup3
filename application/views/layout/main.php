@@ -44,17 +44,17 @@
 
 		@font-face {
 			font-family: Rimouski;
-			src: url('fonts/rimouski sb.ttf');
+			src: url('<?= base_url(); ?>assets/front/fonts/rimouski sb.ttf');
 		}
 
 		@font-face {
 			font-family: Couture;
-			src: url('fonts/couture-bld.otf');
+			src: url('<?= base_url(); ?>assets/front/fonts/couture-bld.otf');
 		}
 
 		@font-face {
 			font-family: Pala;
-			src: url('fonts/pala.ttf');
+			src: url('<?= base_url(); ?>assets/front/fonts/pala.ttf');
 		}
 
 		.font-rimouski {
