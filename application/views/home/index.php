@@ -27,6 +27,11 @@
 		max-width: 500px;
 	}
 
+	.text-large {
+		font-size: 55px !important;
+		line-height: 1;
+	}
+
 	@media only screen and (max-width: 991px) {
 		.flex-direction-nav a {
 			display: none;
@@ -40,6 +45,10 @@
 			max-height: 100% !important;
 			overflow: hidden;
 		}
+
+		.text-large {
+			font-size: 35px !important;
+		}
 	}
 
 </style>
@@ -52,10 +61,9 @@
 		<div class="row align-items-center">
 			<div class="col-lg-5 col-md-5 order-2 order-md-2">
 				<div class="title-heading mt-4 ml-lg-5">
-					<h1 class="heading mb-3 text-white">Profil Perusahaan
-					</h1>
-					<p class="para-desc text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<span class="heading mb-3 text-white text-large font-optimus">Profil Perusahaan
+					</span>
+					<p class="para-desc text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					<div class="watch-video mt-4 pt-2">
 						<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase">Selengkapnya</a>
 					</div>
@@ -81,8 +89,8 @@
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
 				<div class="section-title mb-4 pb-2">
-					<h3 class="title mb-4">Produk Kami</h3>
-					<p class="para-desc mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					<h3 class="title mb-4 font-pala">Produk Kami</h3>
+					<p class="para-desc mx-auto mb-0 font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
@@ -96,28 +104,28 @@
 						<li>
 							<img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco tebal.png" />
-							<h4 class="text-center">Loco Tebal</h4>
+							<h4 class="text-center font-pala">Loco Tebal</h4>
 						</li>
 						    <li>
 							    <img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco rainbow.png" />
-							<h4 class="text-center">Loco Rainbow</h4>
+							<h4 class="text-center font-pala">Loco Rainbow</h4>
 						</li>
 						    <li>
 							<img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco eco.png" />
-							<h4 class="text-center">Loco Ekonomis</h4>
+							<h4 class="text-center font-pala">Loco Ekonomis</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product"
 								src="<?= base_url(); ?>assets/images/home/loco anti panas.png" />
-							<h4 class="text-center">Loco Anti Panas</h4>
+							<h4 class="text-center font-pala">Loco Anti Panas</h4>
 						</li>
 					</ul>
 				</div>
 				<div class="mt-2 pt-2 text-center">
-					<a href="javascript:void(0)" class="btn btn-dark btn-lg btn-pills text-uppercase"
-						style="background-color: #282c73 !important;">Selengkapnya</a>
+					<a href="javascript:void(0)" class="btn btn-dark font-pala btn-lg btn-pills text-capitalize"
+						style="background-color: #282c73 !important;">Lihat Selengkapnya</a>
 				</div>
 			</div>
 			<!--end col-->
@@ -126,9 +134,11 @@
 		<div class="row mt-5">
 			<div class="col-lg-12">
 				<div class="mt-5 pt-2 text-center">
-					<h3 class="mb-2">Kami Adalah Organisasi <br> Yang Berdedikasi Pada Alam, Berorientasi Pada Kualitas
+					<h3 class="mb-2 font-pala">Kami Adalah Organisasi <br> Yang Berdedikasi Pada Alam, Berorientasi Pada
+						Kualitas
 					</h3>
-					<p class="para-desc mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					<p class="para-desc font-pala mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
 						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
@@ -170,8 +180,9 @@
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
 						<div class="section-title position-relative" style="z-index:1;">
-							<h4 class="title title-dark text-white mb-4">PAN ERA GROUP</h4>
-							<p class="text-light para-desc para-dark mx-auto">Start working with PAN ERA GROUP that can
+							<h4 class="title-dark text-white mb-4 font-optimus text-large">PAN ERA GROUP</h4>
+							<p class="text-light para-desc para-dark mx-auto font-pala">Start working with PAN ERA GROUP
+								that can
 								provide
 								everything you need to generate skills, communication, and experience.</p>
 						</div>
@@ -187,8 +198,9 @@
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
 						<div class="section-title position-relative" style="z-index:1;">
-							<h4 class="title title-dark text-white mb-4">PAN ERA GROUP</h4>
-							<p class="text-light para-desc para-dark mx-auto">Start working with PAN ERA GROUP that can
+							<h4 class="title-dark text-white mb-4 font-optimus text-large">PAN ERA GROUP</h4>
+							<p class="text-light para-desc para-dark mx-auto font-pala">Start working with PAN ERA GROUP
+								that can
 								provide
 								everything you need to generate skills, communication, and experience.</p>
 						</div>
@@ -207,8 +219,9 @@
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
 				<div class="section-title mb-4 pb-2">
-					<h4 class="title mb-4 text-navy">Bisnis Kami</h4>
-					<p class="para-desc mb-0 mx-auto text-navy">Kami adalah organisasi yang berdedikasi pada alam,
+					<h4 class="title mb-4 text-navy font-pala">Bisnis Kami</h4>
+					<p class="para-desc mb-0 mx-auto text-navy font-pala">Kami adalah organisasi yang berdedikasi pada
+						alam,
 						<br> berorientasi pada kualitas.
 					</p>
 				</div>
@@ -226,9 +239,11 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a href="<?= site_url('profile#company'); ?>" class="text-navy">Profil
+						<h4 class="title-2 font-pala"><a href="<?= site_url('profile#company'); ?>"
+								class="text-navy">Profil
 								Perusahaan</a></h4>
-						<p class="text-navy mb-0">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan Era
+						<p class="text-navy mb-0 font-pala">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan
+							Era
 							Group</p>
 					</div>
 				</div>
@@ -243,9 +258,11 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a class="text-navy" href="<?= site_url('profile#vision'); ?>">Visi &
+						<h4 class="title-2 font-pala"><a class="text-navy"
+								href="<?= site_url('profile#vision'); ?>">Visi &
 								Misi</a></h4>
-						<p class="text-navy mb-0">Ambisi kami yang kemudian menjadi daya dorong untuk terus maju dan
+						<p class="text-navy mb-0 font-pala">Ambisi kami yang kemudian menjadi daya dorong untuk terus
+							maju dan
 							berkembang</p>
 					</div>
 				</div>
@@ -260,10 +277,12 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a class="text-navy" href="<?= site_url('product#resin'); ?>">Bijih Plastik
+						<h4 class="title-2 font-pala"><a class="text-navy"
+								href="<?= site_url('product#resin'); ?>">Bijih Plastik
 								Daur Ulang</a>
 						</h4>
-						<p class="text-navy mb-0">Produk ramah lingkungan yang menjadi inti dan asal identitas kami
+						<p class="text-navy mb-0 font-pala">Produk ramah lingkungan yang menjadi inti dan asal identitas
+							kami
 						</p>
 					</div>
 				</div>
@@ -278,9 +297,11 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a class="text-navy" href="<?= site_url('management'); ?>">Manajemen SDM</a>
+						<h4 class="title-2 font-pala"><a class="text-navy"
+								href="<?= site_url('management'); ?>">Manajemen SDM</a>
 						</h4>
-						<p class="text-navy mb-0">Filosofi manajemen sumber daya manusia kami untuk berkembang bersama
+						<p class="text-navy mb-0 font-pala">Filosofi manajemen sumber daya manusia kami untuk berkembang
+							bersama
 						</p>
 					</div>
 				</div>
@@ -295,9 +316,10 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a class="text-navy" href="<?= site_url('career'); ?>">Kesempatan
+						<h4 class="title-2 font-pala"><a class="text-navy" href="<?= site_url('career'); ?>">Kesempatan
 								Berkarir</a></h4>
-						<p class="text-navy mb-0">Daftar lowongan posisi yang sedang tersedia beserta instruksi
+						<p class="text-navy mb-0 font-pala">Daftar lowongan posisi yang sedang tersedia beserta
+							instruksi
 							pelamaran</p>
 					</div>
 				</div>
@@ -310,13 +332,15 @@
 <!--end section-->
 <!--end container-->
 <div class="col-12 p-0">
-	<h2 class="text-center p-2 text-white mb-0" style="background-color:rgb(7, 2, 76, 0.8); ">Berita Terbaru</h2>
+	<h2 class="text-center p-2 text-white mb-0 font-pala" style="background-color:rgb(7, 2, 76, 0.8); ">Berita Terbaru
+	</h2>
 </div>
 <section class="section pt-5" style="background-color: #c3d7f9;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 order-2 order-md-1">
-				<h5 class="text-center p-2 text-white mb-2 rounded" style="background-color:rgb(7, 2, 76, 0.8); ">
+				<h5 class="text-center p-2 text-white mb-2 rounded font-pala"
+					style="background-color:rgb(7, 2, 76, 0.8); ">
 					Kegiatan
 					Terbaru
 				</h5>
@@ -327,9 +351,10 @@
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
 									style="background-image: url('http://localhost/paneragroup/assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
-									<h5 class="mb-0"><a href="javascript:void(0)" class="text-dark title">Iphone
-											mockup</a></h5>
-									<h6 class="text-muted tag mb-0">Branding</h6>
+									<h5 class="mb-0"><a href="javascript:void(0)"
+											class="text-dark title font-pala">Judul
+											Berita</a></h5>
+									<h6 class="text-muted tag mb-0 font-pala">Tanggal Berita</h6>
 								</div>
 							</div>
 						</div>
@@ -340,9 +365,10 @@
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
 									style="background-image: url('http://localhost/paneragroup/assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
-									<h5 class="mb-0"><a href="javascript:void(0)" class="text-dark title">Iphone
-											mockup</a></h5>
-									<h6 class="text-muted tag mb-0">Branding</h6>
+									<h5 class="mb-0"><a href="javascript:void(0)"
+											class="text-dark title font-pala">Judul
+											Berita</a></h5>
+									<h6 class="text-muted tag mb-0 font-pala">Tanggal Berita</h6>
 								</div>
 							</div>
 						</div>
@@ -353,9 +379,10 @@
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
 									style="background-image: url('http://localhost/paneragroup/assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
-									<h5 class="mb-0"><a href="javascript:void(0)" class="text-dark title">Iphone
-											mockup</a></h5>
-									<h6 class="text-muted tag mb-0">Branding</h6>
+									<h5 class="mb-0"><a href="javascript:void(0)"
+											class="text-dark font-pala title">Judul
+											Berita</a></h5>
+									<h6 class="text-muted tag mb-0 font-pala">Tanggal Berita</h6>
 								</div>
 							</div>
 						</div>

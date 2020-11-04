@@ -57,6 +57,11 @@
 			src: url('<?= base_url(); ?>assets/front/fonts/pala.ttf');
 		}
 
+		@font-face {
+			font-family: Optimus;
+			src: url('<?= base_url(); ?>assets/front/fonts/OptimusPrinceps.ttf');
+		}
+
 		.font-rimouski {
 			font-family: Rimouski !important;
 			font-size: 15px !important;
@@ -68,7 +73,15 @@
 			font-family: Couture !important;
 		}
 
+		.font-optimus {
+			font-family: Optimus !important;
+		}
+
 		.font-pala {
+			font-family: Pala !important;
+		}
+
+		footer {
 			font-family: Pala !important;
 		}
 
@@ -181,17 +194,20 @@
 					<?php $menu = $this->Menu_m->getmenubyLang($this->lang->line('text_nation'))->result(); 
 					foreach($menu as $row) : ?>
 					<?php if($row->HAVE_SUB == 0) : ?>
-					<li style="margin: 0 5px;"><a href="javascript:void" class="text-white"><?= $row->MENU; ?></a></li>
+					<li style="margin: 0 5px;"><a href="<?= site_url($row->URL); ?>"
+							class="text-white font-rimouski"><?= $row->MENU; ?></a>
+					</li>
 					<?php else : ?>
 					<li style="margin: 0 5px;" class="has-submenu">
-						<a href="javascript:void(0)" class="text-white"><?= $row->MENU; ?></a><span
+						<a href="javascript:void(0)" class="text-white font-rimouski"><?= $row->MENU; ?></a><span
 							class="menu-arrow border-white"></span>
 						<ul class="submenu megamenu">
 							<li>
 								<ul>
 									<?php $submenu = $this->Menu_m->getsubbylangIdMenu($this->lang->line('text_nation'), $row->ID_MENU)->result(); 
                     				foreach($submenu as $sub) : ?>
-									<li><a href="javascript:void"><?= $sub->SUB_MENU;?></a></li>
+									<li><a href="<?= site_url($sub->URL); ?>"
+											class="font-rimouski"><?= $sub->SUB_MENU;?></a></li>
 									<?php endforeach; ?>
 								</ul>
 							</li>
@@ -235,10 +251,27 @@
 	<footer class="footer border-0 pb-0"
 		style="margin-top: -60px; background:url('<?= base_url(); ?>assets/front/images/biji_plastik/footer.png'); background-size: cover;">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-2 order-md-1">
+					<h4 class="text-light footer-head font-pala">Usefull Links</h4>
+					<ul class="list-unstyled footer-list mt-4">
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+								Terms
+								of Services</a></li>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+								Privacy Policy</a></li>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+								FAQ</a></li>
+						<!-- <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+								Changelog</a></li>
+						<li><a href="components.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+								Components</a></li> -->
+					</ul>
+				</div>
+				<!--end col-->
+				<div class="col-lg-6 col-12 mb-0 mb-md-4 pb-0 pb-md-2 order-1 order-md-2 text-center">
 					<a href="#" class="logo-footer">
-						<h2 class="text-light">Pan Era Group</h2>
+						<h2 class="text-light font-optimus font-weight-light">PAN ERA GROUP</h2>
 					</a>
 					<p class="mt-4 text-foot">Jalan Kapuk Raya No. 88 E, F, G Penjaringan Jakarta Utara DKI Jakarta
 						14460
@@ -257,70 +290,23 @@
 				</div>
 				<!--end col-->
 
-				<div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-light footer-head">Company</h4>
-					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="<?= site_url('profile#company'); ?>" class="text-foot"><i
-									class="mdi mdi-chevron-right mr-1"></i>
-								<?= $this->lang->line('qlink_profile'); ?></a></li>
-						<li><a href="<?= site_url('profile#vision'); ?>" class="text-foot"><i
-									class="mdi mdi-chevron-right mr-1"></i>
-								<?= $this->lang->line('qlink_vision'); ?></a></li>
-						<li><a href="<?= site_url('news'); ?>" class="text-foot"><i
-									class="mdi mdi-chevron-right mr-1"></i>
-								<?= $this->lang->line('qlink_news'); ?></a></li>
-						<li><a href="<?= site_url('management'); ?>" class="text-foot"><i
-									class="mdi mdi-chevron-right mr-1"></i>
-								<?= $this->lang->line('qlink_hr'); ?></a></li>
-						<li><a href="<?= site_url('career'); ?>" class="text-foot"><i
-									class="mdi mdi-chevron-right mr-1"></i>
-								<?= $this->lang->line('qlink_career'); ?></a></li>
-						<!-- <li><a href="page-jobs.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Careers</a></li>
-						<li><a href="page-blog-grid.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Blog</a></li>
-						<li><a href="auth-cover-login.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Login</a></li> -->
-					</ul>
-				</div>
-				<!--end col-->
 
-				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-light footer-head">Usefull Links</h4>
-					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Terms
-								of Services</a></li>
-						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Privacy Policy</a></li>
-						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Sitemap</a></li>
-						<!-- <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Changelog</a></li>
-						<li><a href="components.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
-								Components</a></li> -->
-					</ul>
-				</div>
-				<!--end col-->
-
-				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-light footer-head">Subscribe</h4>
-					<p class="mt-4 text-foot">Sign up and receive the latest news and job opportunities via email.</p>
+				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-3 order-md-3 ">
+					<h4 class="text-light footer-head font-pala">Pencarian</h4>
 					<form>
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="foot-subscribe foot-white form-group position-relative">
-									<label class="text-foot">Write and submit your email <span
-											class="text-danger">*</span></label>
-									<i data-feather="mail" class="fea icon-sm icons"></i>
+									<label class="text-foot">Ketikan Kata kunci dan submit</label>
+									<i data-feather="search" class="fea icon-sm icons"></i>
 									<input type="email" name="email" id="emailsubscribe"
-										class="form-control bg-light border pl-5 rounded" placeholder="Your email : "
+										class="form-control bg-light border pl-5 rounded" placeholder="Cari disini.."
 										required>
 								</div>
 							</div>
 							<div class="col-lg-12">
 								<input type="submit" id="submitsubscribe" name="send"
-									class="btn btn-soft-primary btn-block" value="Subscribe">
+									class="btn btn-light btn-pills btn-block" value="Cari">
 							</div>
 						</div>
 					</form>
@@ -335,8 +321,8 @@
 	<footer class="footer footer-bar border-0" style="background-color: #30326b;">
 		<div class="container text-center">
 			<div class="row align-items-center">
-				<div class="col-sm-6">
-					<div class="text-sm-left">
+				<div class="col-sm-12">
+					<div class="">
 						<p class="mb-0">© 2020 PAN ERA GROUP. All rights reserved</a>.
 						</p>
 					</div>

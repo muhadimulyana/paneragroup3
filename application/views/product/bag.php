@@ -3,6 +3,10 @@
 		background-color: rgb(104, 110, 154, 0.65);
 	}
 
+	section {
+		font-family: Pala !important;
+	}
+
 </style>
 
 <!-- Product Start -->
@@ -12,7 +16,7 @@
 	<div class="container pb-lg-4 mb-md-5 mb-4">
 		<div class="row justify-content-center mt-5">
 			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
-				<h1 class="heading text-white mb-3">Kantong Plastik</h1>
+				<h1 class="heading text-white mb-3 font-pala">Kantong Plastik</h1>
 				<p class="text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 				<p class="text-white">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
