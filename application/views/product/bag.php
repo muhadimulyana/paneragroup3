@@ -11,7 +11,7 @@
 	<div class="bg-overlay-navy"></div>
 	<div class="container pb-lg-4 mb-md-5 mb-4">
 		<div class="row justify-content-center mt-5">
-			<div class="col-md-6">
+			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
 				<h1 class="heading text-white mb-3">Kantong Plastik</h1>
 				<p class="text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -27,7 +27,7 @@
 				</div>
 				<img src="<?= base_url(); ?>assets/images/product/anti panas2.png" class="img-fluid mb-3" alt="">
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
 				<img src="<?= base_url(); ?>assets/images/product/loco tebal2.png" class="img-fluid mb-5" alt="">
 				<div class="text-center mb-5">
 					<p class="text-white">Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
