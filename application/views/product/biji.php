@@ -1,3 +1,10 @@
+<style>
+	#topnav {
+		background-color: rgb(104, 110, 154, 0.6);
+	}
+
+</style>
+
 <!-- Hero Start -->
 <section class="bg-half d-table w-100"
 	style="background: url('<?= base_url(); ?>assets/images/biji_plastik/backgrund.jpg'); background-size: cover;">
