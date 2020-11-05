@@ -37,11 +37,38 @@
 <!--Shape End-->
 
 <section class="section position-relative"
-	style="background: url('<?= base_url(); ?>assets/images/profile/shape.png') center center; margin-top: -50px; min-height: 400px; background-size:cover; background-position: center; ">
+	style="background: url('<?= base_url(); ?>assets/images/profile/shape.png') center center; margin-top: -105px; min-height: 400px; background-size:cover; background-position: center; ">
 	<div class="container">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center mt-5">
 			<div class="col-md-12">
-				<span class="text-white-50"></span>
+				<p class="text-white font-pala text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					do eiusmod
+					tempor
+					incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Quis risus sed
+					vulputate odio ut enim blandit. Nunc pulvinar sapien et ligula ullamcorper. Vel orci porta non
+					pulvinar neque laoreet suspendisse interdum. </p>
+				<p class="text-white font-pala text-center">Augue interdum velit euismod in. Laoreet id donec ultrices
+					tincidunt
+					arcu non.
+					Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Sit amet volutpat consequat
+					mauris nunc congue nisi. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Aliquam malesuada
+					bibendum arcu vitae elementum. Massa tempor nec feugiat nisl pretium fusce id. Eu tincidunt tortor
+					aliquam nulla facilisi cras fermentum odio.
+
+				</p>
+			</div>
+			<div class="col-md-12 mt-5">
+				<div class="justify-content-center text-center">
+					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase mr-5"
+						style="margin-right:">Selengkapnya</a>
+					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase ml-5">Selengkapnya</a>
+				</div>
+			</div>
+			<div class="col-md-12 mt-md-3">
+				<div class="justify-content-center text-center">
+					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase mr-2">Selengkapnya</a>
+					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase ml-2">Selengkapnya</a>
+				</div>
 			</div>
 		</div>
 	</div>

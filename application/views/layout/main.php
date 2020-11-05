@@ -125,6 +125,13 @@
 
 		@media only screen and (max-width: 991px) {
 
+			#topnav {
+				background-color: #ffffff !important;
+				-webkit-box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+				box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+				min-height: 74px;
+			}
+
 			.logo-panera {
 				height: 50px !important;
 			}
