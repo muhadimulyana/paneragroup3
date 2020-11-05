@@ -117,6 +117,11 @@
 			color: #282c73;
 		}
 
+		/* .link-menu-header:active {
+			color: #fff !important;
+			text-decoration: underline !important;
+		} */
+
 
 		@media only screen and (max-width: 991px) {
 
@@ -195,7 +200,7 @@
 					foreach($menu as $row) : ?>
 					<?php if($row->HAVE_SUB == 0) : ?>
 					<li style="margin: 0 5px;"><a href="<?= site_url($row->URL); ?>"
-							class="text-white font-rimouski"><?= $row->MENU; ?></a>
+							class="text-white font-rimouski link-menu-header"><?= $row->MENU; ?></a>
 					</li>
 					<?php else : ?>
 					<li style="margin: 0 5px;" class="has-submenu">

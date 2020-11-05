@@ -61,7 +61,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-5 col-md-5 order-2 order-md-2">
 				<div class="title-heading mt-4 ml-lg-5">
-					<span class="heading mb-3 text-white text-large font-optimus">Profil Perusahaan
+					<span class="heading mb-3 text-white text-large font-optimus text-uppercase">Profil Perusahaan
 					</span>
 					<p class="para-desc text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					<div class="watch-video mt-4 pt-2">
