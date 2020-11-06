@@ -58,7 +58,7 @@
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
 						in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a href="javascript:void(0)" class="font-pala btn bg-navy btn-pills btn-xl text-white"
+					<a href="<?= site_url('career/list'); ?>" class="font-pala btn bg-navy btn-pills btn-xl text-white"
 						style="background-color: #282c73 !important;">Daftar Lowongan</a>
 			</div>
 			<div class="col-md-6 order-1 order-md-2 mb-2 text-center">

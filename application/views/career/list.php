@@ -19,6 +19,10 @@
 		height: 100%;
 	}
 
+	section {
+		font-family: Pala;
+	}
+
 	@media only screen and (max-width: 991px) {
 
 		.text-xl-career {
@@ -35,8 +39,8 @@
 	<div class="container pb-lg-4 mb-md-5 mt-5">
 		<div class="row justify-content-center">
 			<div class="col-md-12">
-				<h2 class="heading">Karir Bersama</h2>
-				<h1 class="text-xl-career" style="margin-top: -40px;">PAN ERA GROUP</h1>
+				<h2 class="heading font-pala font-weight-light">Karir Bersama</h2>
+				<h1 class="text-xl-career font-optimus font-weight-light" style="margin-top: -40px;">PAN ERA GROUP</h1>
 				<!-- <h4 class="heading text-center">Berikut ini adalah daftar posisi lowongan</h4> -->
 			</div>
 		</div>
@@ -44,7 +48,7 @@
 			<div class="col-md-10">
 				<div class="mb-3 p-3 bg-soft-primary" data-aos="fade-right" data-aos-duration="1000"
 					style="min-height: 200px; color: #161C2D !important;">
-					<h2>Graphic Designer</h2>
+					<h2 class="font-pala">Graphic Designer</h2>
 					<table>
 						<tr>
 							<td>Company</td>
@@ -63,7 +67,7 @@
 						</tr>
 					</table>
 					<div class="text-right">
-						<a href="javascript:void(0)" class="btn text-white btn-pills"
+						<a href="<?= site_url('career/detail'); ?>" class="btn text-white btn-pills"
 							style="background-color: #282c73 !important;">Selengkapnya</a>
 					</div>
 				</div>
@@ -77,7 +81,7 @@
 			<div class="col-md-10">
 				<div class="bg-soft-danger mb-3 p-3" data-aos="fade-left" data-aos-duration="1000"
 					style="min-height: 200px; color: #161C2D !important;">
-					<h2>Graphic Designer</h2>
+					<h2 class="font-pala">Graphic Designer</h2>
 					<table>
 						<tr>
 							<td>Company</td>
@@ -96,7 +100,7 @@
 						</tr>
 					</table>
 					<div class="text-right">
-						<a href="javascript:void(0)" class="btn text-white btn-pills"
+						<a href="<?= site_url('career/detail'); ?>" class="btn text-white btn-pills"
 							style="background-color: #282c73 !important;">Selengkapnya</a>
 					</div>
 				</div>
@@ -104,7 +108,7 @@
 			<div class="col-md-10">
 				<div class="bg-soft-primary mb-3 p-3" data-aos="fade-right" data-aos-duration="1000"
 					style="min-height: 200px; color: #161C2D !important;">
-					<h2>Graphic Designer</h2>
+					<h2 class="font-pala">Graphic Designer</h2>
 					<table>
 						<tr>
 							<td>Company</td>
@@ -123,7 +127,7 @@
 						</tr>
 					</table>
 					<div class="text-right">
-						<a href="javascript:void(0)" class="btn text-white btn-pills"
+						<a href="<?= site_url('career/detail'); ?>" class="btn text-white btn-pills"
 							style="background-color: #282c73 !important;">Selengkapnya</a>
 					</div>
 				</div>
@@ -137,7 +141,7 @@
 			<div class="col-md-10">
 				<div class="bg-soft-danger mb-3 p-3" data-aos="fade-left" data-aos-duration="1000"
 					style="min-height: 200px; color: #161C2D !important;">
-					<h2>Graphic Designer</h2>
+					<h2 class="font-pala">Graphic Designer</h2>
 					<table>
 						<tr>
 							<td>Company</td>
@@ -156,7 +160,7 @@
 						</tr>
 					</table>
 					<div class="text-right">
-						<a href="javascript:void(0)" class="btn text-white btn-pills"
+						<a href="<?= site_url('career/detail'); ?>" class="btn text-white btn-pills"
 							style="background-color: #282c73 !important;">Selengkapnya</a>
 					</div>
 				</div>
