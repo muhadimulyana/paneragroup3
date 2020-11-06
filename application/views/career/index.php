@@ -74,12 +74,17 @@
 	<div class="container justify-content-center p-5">
 		<div class="row text-center">
 			<div class="col-md-12">
-				<h5 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+				<h5 class="text-white text-serif font-weight-light">Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris
+					nisi ut
 					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur <br><br> Lectus sit amet est placerat in:</h5>
-				<a href="javascript:void(0)" class="btn btn-light btn-pills btn-lg">hrd@paneragroup.com</a><br>
-				<small class="text-white">Ut tellus elementum sagittis vitae</small>
-				<h5 class="text-white mt-3">Amet tellus cras adipiscing enim eu turpis egestas. Sed velit dignissim
+				<a href="javascript:void(0)"
+					class="btn btn-light btn-pills btn-lg text-serif">hrd@paneragroup.com</a><br>
+				<small class="text-white text-serif">Ut tellus elementum sagittis vitae</small>
+				<h5 class="text-white mt-3 text-serif font-weight-light">Amet tellus cras adipiscing enim eu turpis
+					egestas. Sed velit
+					dignissim
 					sodales ut eu sem integer vitae. Turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</h5>
 			</div>
 		</div>

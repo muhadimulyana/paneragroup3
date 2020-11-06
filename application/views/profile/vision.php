@@ -26,15 +26,16 @@
 
 			</div>
 			<div class="col-md-4">
-				<h5 class="text-center p-2 text-white mb-3" style="background-color:rgb(81, 86, 188, 0.4); ">
+				<h5 class="text-center p-2 text-white mb-3 font-pala" style="background-color:rgb(81, 86, 188, 0.4); ">
 					Visi & Misi PAN ERA Group
 				</h5>
 			</div>
 			<div class="col-md-6">
-				<img src="<?= base_url(); ?>assets/images/profile/visi-01.svg" class="img-fluid" style="width: 200px"
+				<img src="<?= base_url(); ?>assets/images/profile/visi-01.svg" class="img-fluid" style="width: 190px"
 					alt="">
-				<span class="text-white" style="font-size: 25px;">Vision</span>
-				<p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				<span class="font-pala text-secondary" style="font-size: 40px;">Vision</span>
+				<p class="text-white mt-4 font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod
 					tempor
 					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 					ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -42,15 +43,18 @@
 			<div class="col-md-6">
 				<img src="<?= base_url(); ?>assets/images/profile/misi-01.svg" style="width: 180px" class="img-fluid"
 					alt="">
-				<span class="text-white" style="font-size: 25px;">Mision</span>
+				<span class="font-pala text-secondary" style="font-size: 40px;">Mision</span>
 				<ul class="list-unstyled mt-3 text-white">
-					<li class="mb-2"><i data-feather="disc" class="fea icon-sm mr-2"></i>Lorem ipsum dolor sit amet,
+					<li class="mb-2 font-pala"><i data-feather="disc" class="fea icon-sm mr-2"></i>Lorem ipsum dolor sit
+						amet,
 						consectetur
 						adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-					<li class="mb-2"><i data-feather="disc" class="fea icon-sm mr-2"></i>Ut enim ad minim veniam, quis
+					<li class="mb-2 font-pala"><i data-feather="disc" class="fea icon-sm mr-2"></i>Ut enim ad minim
+						veniam, quis
 						nostrud
 						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-					<li><i data-feather="disc" class="fea icon-sm mr-2"></i>Duis aute irure dolor in reprehenderit in
+					<li class="font-pala"><i data-feather="disc" class="fea icon-sm mr-2"></i>Duis aute irure dolor in
+						reprehenderit in
 						voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li>
 				</ul>
 			</div>

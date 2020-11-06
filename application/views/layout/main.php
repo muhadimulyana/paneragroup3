@@ -117,6 +117,10 @@
 			color: #282c73;
 		}
 
+		.text-serif {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
 		/* .link-menu-header:active {
 			color: #fff !important;
 			text-decoration: underline !important;
@@ -182,7 +186,7 @@
 			<!-- Logo container-->
 			<div>
 				<a class="logo" style="padding: 5px 0 0 0;" href="<?= base_url(); ?>">
-					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/pan-era.png" height="45" alt="">
+					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera-w.png" height="65" alt="">
 				</a>
 			</div>
 			<!-- End Logo container-->
