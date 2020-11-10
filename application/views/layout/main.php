@@ -186,7 +186,10 @@
 			<!-- Logo container-->
 			<div>
 				<a class="logo" style="padding: 5px 0 0 0;" href="<?= base_url(); ?>">
-					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera-w.png" height="65" alt="">
+					<!-- <img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera-w.png" class="l-dark"
+						height="65" alt=""> -->
+					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera-b.png" class="l-light"
+						height="65" alt="">
 				</a>
 			</div>
 			<!-- End Logo container-->
