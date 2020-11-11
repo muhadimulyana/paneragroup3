@@ -34,6 +34,9 @@
 	<link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/foxx/foxx-css/foxx.css">
 	<!-- AOS -->
 	<link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/aos/aos.css">
+	<!-- SlickSlider -->
+	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/slick/slick-theme.css" />
 	<!-- JQuery -->
 	<script src="<?= base_url(); ?>assets/front/js/jquery-3.5.1.min.js"></script>
 
@@ -186,10 +189,10 @@
 			<!-- Logo container-->
 			<div>
 				<a class="logo" style="padding: 5px 0 0 0;" href="<?= base_url(); ?>">
-					<!-- <img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera-w.png" class="l-dark"
-						height="65" alt=""> -->
-					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera-b.png" class="l-light"
-						height="65" alt="">
+					<img src="<?= base_url(); ?>assets/images/logo/panera-w.png" class="l-light logo-panera" height="65"
+						alt="">
+					<img src="<?= base_url(); ?>assets/images/logo/panera-b.png" class="l-dark logo-panera" height="65"
+						alt="">
 				</a>
 			</div>
 			<!-- End Logo container-->
@@ -389,6 +392,8 @@
 	<script src="<?= base_url(); ?>assets/front/js/app.js"></script>
 	<!-- AOS Js -->
 	<script src="<?= base_url(); ?>assets/plugins/aos/aos.js"></script>
+	<!-- Slickslider -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 	<script>
 		//$(function () {
@@ -409,6 +414,31 @@
 		//});
 
 		AOS.init();
+
+		$('.slick-slider').slick({
+			centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 3,
+			responsive: [{
+					breakpoint: 768,
+					settings: {
+						arrows: false,
+						centerMode: true,
+						centerPadding: '40px',
+						slidesToShow: 3
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						arrows: false,
+						centerMode: true,
+						centerPadding: '40px',
+						slidesToShow: 1
+					}
+				}
+			]
+		});
 
 	</script>
 </body>
