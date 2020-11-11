@@ -6,16 +6,16 @@
 </style>
 
 <!-- Hero Start -->
-<section class="bg-half-260 d-table w-100"
+<section class="bg-half-260 section d-table w-100"
 	style="background: url('<?= base_url(); ?>assets/images/profile/blow.png') center center; background-size:cover; background-position: center;">
-	<div class="bg-overlay"></div>
+	<div class="bg-overlay-navy"></div>
 	<div class="container">
 		<div class="row justify-content-center text-center">
 			<div class="col-lg-12 col-md-12">
-				<div class="title-heading mt-4 p-3" style="background-color: rgb(255, 255, 255, 0.6);">
-					<h1 class="display-4 font-weight-light text-navy title-dark mb-3 text-uppercase font-optimus">
+				<div class="title-heading p-3">
+					<h1 class="display-4 font-weight-light text-white title-dark mb-3 text-uppercase font-optimus">
 						Tentang Kami</h1>
-					<p class="text-navy text-uppercase font-optimus">Duis aute irure dolor in reprehenderit in <br>
+					<p class="text-white text-uppercase font-optimus">Duis aute irure dolor in reprehenderit in <br>
 						voluptate
 						velit esse cillum dolore eu fugiat nulla pariatur. </p>
 				</div>
@@ -31,23 +31,22 @@
 <!-- Shape Start -->
 <div class="position-relative">
 	<div class="shape overflow-hidden text-white">
-		<img src="<?= base_url(); ?>assets/images/profile/wave.svg" class="img-fluid" alt="">
+		<img src="<?= base_url(); ?>assets/images/profile/wave4.svg" class="img-fluid" alt="">
 	</div>
 </div>
 <!--Shape End-->
 
-<section class="section position-relative"
-	style="background: url('<?= base_url(); ?>assets/images/profile/shape.png') center center; margin-top: -105px; min-height: 400px; background-size:cover; background-position: center; ">
+<section class="section position-relative" style="background-color: #9e9dd3; min-height: 400px">
 	<div class="container">
-		<div class="row justify-content-center mt-5">
+		<div class="row justify-content-center mb-5">
 			<div class="col-md-12">
-				<p class="text-white font-pala text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+				<p class="font-pala text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 					do eiusmod
 					tempor
 					incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Quis risus sed
 					vulputate odio ut enim blandit. Nunc pulvinar sapien et ligula ullamcorper. Vel orci porta non
 					pulvinar neque laoreet suspendisse interdum. </p>
-				<p class="text-white font-pala text-center">Augue interdum velit euismod in. Laoreet id donec ultrices
+				<p class="font-pala text-center">Augue interdum velit euismod in. Laoreet id donec ultrices
 					tincidunt
 					arcu non.
 					Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Sit amet volutpat consequat
@@ -57,17 +56,42 @@
 
 				</p>
 			</div>
-			<div class="col-md-12 mt-5">
-				<div class="justify-content-center text-center">
-					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase mr-5"
-						style="margin-right:">Selengkapnya</a>
-					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase ml-5">Selengkapnya</a>
-				</div>
-			</div>
-			<div class="col-md-12 mt-md-3">
-				<div class="justify-content-center text-center">
-					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase mr-2">Selengkapnya</a>
-					<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase ml-2">Selengkapnya</a>
+			<div class="text-center">
+				<div class="row">
+					<div class="col-6 mt-5">
+						<a href="<?= site_url('profile/eri'); ?>">
+							<img src="<?= base_url(); ?>assets/images/profile/eri-icon.png" width="120px"
+								class="img-fluid" alt="">
+							<p class="title font-weight-bold font-optimus text-uppercase" style="color:#161c2d;">PT.
+								Elite
+								Recycling Indonesia
+							</p>
+						</a>
+					</div>
+					<div class="col-6 mt-5">
+						<a href="<?= site_url('profile/era'); ?>">
+							<img src="<?= base_url(); ?>assets/images/profile/era-icon.png" width="120px"
+								class="img-fluid" alt="">
+							<p class="title font-weight-bold font-optimus text-uppercase" style="color:#161c2d;">PT.
+								Elastis Reka Aktif</p>
+						</a>
+					</div>
+					<div class="col-6 mt-5">
+						<a href="<?= site_url('profile/vision'); ?>">
+							<img src="<?= base_url(); ?>assets/images/profile/v.png" width="120px" class="img-fluid"
+								alt="">
+							<p class="title font-weight-bold font-optimus text-uppercase" style="color:#161c2d;">Visi &
+								Misi</p>
+						</a>
+					</div>
+					<div class="col-6 mt-5">
+						<a href="javascript:void">
+							<img src="<?= base_url(); ?>assets/images/profile/about.png" width="120px" class="img-fluid"
+								alt="">
+							<p class="title font-weight-bold font-optimus text-uppercase" style="color:#161c2d;">
+								Sertifikasi</p>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
