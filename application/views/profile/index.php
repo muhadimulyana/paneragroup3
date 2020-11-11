@@ -85,7 +85,7 @@
 						</a>
 					</div>
 					<div class="col-6 mt-5">
-						<a href="javascript:void">
+						<a href="javascript:void" data-toggle="modal" data-target="#LoginForm">
 							<img src="<?= base_url(); ?>assets/images/profile/about.png" width="120px" class="img-fluid"
 								alt="">
 							<p class="title font-weight-bold font-optimus text-uppercase" style="color:#161c2d;">
@@ -97,3 +97,39 @@
 		</div>
 	</div>
 </section>
+
+<!-- Modal Content Start -->
+<div class="modal fade" id="LoginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+		<div class="modal-content rounded shadow border-0">
+			<div class="modal-header" style="background-color: #9e9dd3; ">
+				<h5 class="modal-title" id="exampleModalCenterTitle">Sertifikat </h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" id="isiKonten" style="overflow: auto !important; height: auto; max-height: 430px;">
+				<div class="bg-white p-3 rounded box-shadow">
+					<!-- <blockquote class="blockquote mt-3 p-3">
+						<p class=" mb-0 font-italic">" Kami adalah organisasi yang berdedikasi pada alam,
+							berorientasi pada kualitas. "</p> -->
+					</blockquote>
+					<div class="row">
+						<div class="col-md-6">
+							<img src="<?= base_url(); ?>assets/images/profile/cert1.jpg" class="img-fluid" alt="">
+						</div>
+						<div class="col-md-6 mt-4 mt-md-0">
+							<img src="<?= base_url(); ?>assets/images/profile/cert3.jpg" class="img-fluid" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Content End -->
