@@ -93,52 +93,46 @@
 		<div class="row">
 			<div class="col-12 mt-4 pt-2">
 				<div id="customer-testi" class="owl-carousel owl-theme">
-					<div class="card customer-testi text-center border rounded mx-2">
-						<div class="card-body">
-							<img src="images/client/amazon.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
-							<p class="text-muted mt-4">" It seems that only fragments of the original text remain in the
-								Lorem Ipsum texts used today. "</p>
-							<h6 class="text-primary">- Thomas Israel</h6>
+					<div class="card border-0 work-container work-classic">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
 						</div>
 					</div>
-					<div class="card customer-testi text-center border rounded mx-2">
-						<div class="card-body">
-							<img src="images/client/google.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
-							<p class="text-muted mt-4">" The most well-known dummy text is the 'Lorem Ipsum', which is
-								said to have originated in the 16th century. "</p>
-							<h6 class="text-primary">- Carl Oliver</h6>
+					<div class="card border-0 work-container work-classic mx-2">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
 						</div>
 					</div>
-					<div class="card customer-testi text-center border rounded mx-2">
-						<div class="card-body">
-							<img src="images/client/lenovo.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
-							<p class="text-muted mt-4">" One disadvantage of Lorum Ipsum is that in Latin certain
-								letters appear more frequently than others. "</p>
-							<h6 class="text-primary">- Barbara McIntosh</h6>
+					<div class="card border-0 work-container work-classic mx-2">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
 						</div>
 					</div>
-					<div class="card customer-testi text-center border rounded mx-2">
-						<div class="card-body">
-							<img src="images/client/paypal.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
-							<p class="text-muted mt-4">" Thus, Lorem Ipsum has only limited suitability as a visual
-								filler for German texts. "</p>
-							<h6 class="text-primary">- Jill Webb</h6>
+					<div class="card border-0 work-container work-classic mx-2">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
 						</div>
 					</div>
-					<div class="card customer-testi text-center border rounded mx-2">
-						<div class="card-body">
-							<img src="images/client/shopify.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
-							<p class="text-muted mt-4">" There is now an abundance of readable dummy texts. These are
-								usually used when a text is required. "</p>
-							<h6 class="text-primary">- Dean Tolle</h6>
+					<div class="card border-0 work-container work-classic mx-2">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
 						</div>
 					</div>
-					<div class="card customer-testi text-center border rounded mx-2">
-						<div class="card-body">
-							<img src="images/client/spotify.svg" class="img-fluid avatar avatar-ex-sm mx-auto" alt="">
-							<p class="text-muted mt-4">" According to most sources, Lorum Ipsum can be traced back to a
-								text composed by Cicero. "</p>
-							<h6 class="text-primary">- Christa Smith</h6>
+					<div class="card border-0 work-container work-classic mx-2">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
+						</div>
+					</div>
+					<div class="card border-0 work-container work-classic mx-2">
+						<div class="card-body p-0">
+							<a href="javascript:void" class="card-img-top img-fluid rounded"
+								style="background-image: url('<?= base_url(); ?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 200px; background-position:center; display: block;"></a>
 						</div>
 					</div>
 				</div>

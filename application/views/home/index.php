@@ -349,7 +349,7 @@
 						<div class="card border-0 work-container work-classic">
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
-									style="background-image: url('http://localhost/paneragroup/assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+									style="background-image: url('<?= base_url(); ?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
 									<h5 class="mb-0"><a href="javascript:void(0)"
 											class="text-dark title font-pala">Judul
@@ -363,7 +363,7 @@
 						<div class="card border-0 work-container work-classic">
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
-									style="background-image: url('http://localhost/paneragroup/assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+									style="background-image: url('<?= base_url(); ?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
 									<h5 class="mb-0"><a href="javascript:void(0)"
 											class="text-dark title font-pala">Judul
@@ -377,7 +377,7 @@
 						<div class="card border-0 work-container work-classic">
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
-									style="background-image: url('http://localhost/paneragroup/assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+									style="background-image: url('<?= base_url(); ?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
 									<h5 class="mb-0"><a href="javascript:void(0)"
 											class="text-dark font-pala title">Judul

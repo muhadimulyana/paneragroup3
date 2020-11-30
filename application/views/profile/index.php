@@ -114,7 +114,7 @@
 					<!-- <blockquote class="blockquote mt-3 p-3">
 						<p class=" mb-0 font-italic">" Kami adalah organisasi yang berdedikasi pada alam,
 							berorientasi pada kualitas. "</p> -->
-					</blockquote>
+					<!-- </blockquote> -->
 					<div class="row">
 						<div class="col-md-6">
 							<img src="<?= base_url(); ?>assets/images/profile/cert1.jpg" class="img-fluid" alt="">
