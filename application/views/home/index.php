@@ -112,7 +112,7 @@
 						</li>
 						<li>
 							<img class="img-fluid img-product"
-								src="<?=base_url();?>assets/images/home/loco anti panas.png" />
+								src="<?=base_url();?>assets/images/home/anti-panas.png" />
 							<h4 class="text-center font-pala">Loco Anti Panas</h4>
 						</li>
 						<li>
