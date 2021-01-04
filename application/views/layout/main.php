@@ -65,6 +65,11 @@
 			src: url('<?= base_url(); ?>assets/front/fonts/OptimusPrinceps.ttf');
 		}
 
+		@font-face {
+			font-family: Gabriola;
+			src: url('<?= base_url(); ?>assets/front/fonts/Gabriola.ttf');
+		}
+
 		.font-rimouski {
 			font-family: Rimouski !important;
 			font-size: 15px !important;
@@ -82,6 +87,10 @@
 
 		.font-pala {
 			font-family: Pala !important;
+		}
+
+		.font-gabriola {
+			font-family: Gabriola !important;
 		}
 
 		footer {

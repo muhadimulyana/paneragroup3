@@ -55,7 +55,7 @@
 
 <!-- Hero Start -->
 <section class="bg-half-170 d-table w-100"
-	style="padding: 80px 0 270px 0 !important; background: url('<?= base_url(); ?>assets/images/home/header.png') center center; background-size: cover; background-color: #c3d7f9;"
+	style="padding: 80px 0 80px 0 !important; background: url('<?=base_url();?>assets/images/home/header2.png') center center; background-size: cover; "
 	id="home">
 	<div class="container">
 		<div class="row align-items-center">
@@ -72,7 +72,7 @@
 			<!--end col-->
 
 			<div class="col-lg-7 col-md-7 order-1 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
-				<img src="<?= base_url(); ?>assets/images/home/foto gedung.png" class="img-fluid" alt="">
+				<img src="<?=base_url();?>assets/images/home/foto gedung.png" class="img-fluid" alt="">
 			</div>
 		</div>
 		<!--end row-->
@@ -83,13 +83,13 @@
 <!-- Hero End -->
 <!-- Start Plan -->
 <section class="section"
-	style="padding: 0 0 150px 0 !important; background: url('<?= base_url(); ?>assets/images/home/skyblue.png') center center; background-size: cover; ">
+	style="padding: 0 0 150px 0 !important; background: url('<?=base_url();?>assets/images/home/skyblue.png') center center; background-size: cover; ">
 
 	<div class="container justify-content-center">
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
 				<div class="section-title mb-4 pb-2">
-					<h3 class="title mb-4 font-pala">Produk Kami</h3>
+					<h3 class="title mt-5 mb-4 font-pala">Produk Kami</h3>
 					<p class="para-desc mx-auto mb-0 font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
@@ -103,23 +103,22 @@
 					  <ul class="slides">
 						<li>
 							<img class="img-fluid img-product"
-								src="<?= base_url(); ?>assets/images/home/loco tebal.png" />
+								src="<?=base_url();?>assets/images/home/loco tebal.png" />
 							<h4 class="text-center font-pala">Loco Tebal</h4>
 						</li>
-						    <li>
-							    <img class="img-fluid img-product"
-								src="<?= base_url(); ?>assets/images/home/loco rainbow.png" />
-							<h4 class="text-center font-pala">Loco Rainbow</h4>
-						</li>
-						    <li>
-							<img class="img-fluid img-product"
-								src="<?= base_url(); ?>assets/images/home/loco eco.png" />
+						<li>
+							<img class="img-fluid img-product" src="<?=base_url();?>assets/images/home/loco eco.png" />
 							<h4 class="text-center font-pala">Loco Ekonomis</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product"
-								src="<?= base_url(); ?>assets/images/home/loco anti panas.png" />
+								src="<?=base_url();?>assets/images/home/loco anti panas.png" />
 							<h4 class="text-center font-pala">Loco Anti Panas</h4>
+						</li>
+						<li>
+							<img class="img-fluid img-product"
+								src="<?=base_url();?>assets/images/home/loco rainbow.png" />
+							<h4 class="text-center font-pala">Loco Rainbow</h4>
 						</li>
 					</ul>
 				</div>
@@ -152,7 +151,7 @@
 
 <!-- CTA Start -->
 <!-- <section class="section bg-cta"
-	style="background: url('<?= base_url(); ?>assets/images/home/transition1.png') center center; background-size:cover;"
+	style="background: url('<?=base_url();?>assets/images/home/transition1.png') center center; background-size:cover;"
 	id="cta">
 	<div class="bg-overlay bg-overlay-gradient"></div>
 	<div class="container">
@@ -175,7 +174,7 @@
 	<div class="bg-overlay bg-overlay-gradient"></div>
 	<ul class="slides">
 		<li class="bg-slider bg-transition d-flex align-items-center"
-			style="background-image:url('<?= base_url(); ?>assets/images/home/transition1.png'); background-size: cover; min-height: 500px; background-position: center;">
+			style="background-image:url('<?=base_url();?>assets/images/home/transition1.png'); background-size: cover; min-height: 500px; background-position: center;">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
@@ -193,7 +192,7 @@
 			</div>
 		</li>
 		<li class="bg-slider bg-transition d-flex align-items-center"
-			style="background-image:url('<?= base_url(); ?>assets/images/home/transtion2.jpg'); background-size: cover; min-height: 500px; background-position: center;">
+			style="background-image:url('<?=base_url();?>assets/images/home/transtion2.jpg'); background-size: cover; min-height: 500px; background-position: center;">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
@@ -234,12 +233,12 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/home/build.png" class="avatar"
+						<img src="<?=base_url();?>assets/images/home/build.png" class="avatar"
 							style="height: 85px; width: 85px;" alt="">
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a href="<?= site_url('profile#company'); ?>"
+						<h4 class="title-2 font-pala"><a href="<?=site_url('profile#company');?>"
 								class="text-navy">Profil
 								Perusahaan</a></h4>
 						<p class="text-navy mb-0 font-pala">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan
@@ -253,13 +252,13 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/home/visi.png" class="avatar"
+						<img src="<?=base_url();?>assets/images/home/visi.png" class="avatar"
 							style="height: 85px; width: 85px;" alt="">
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy"
-								href="<?= site_url('profile#vision'); ?>">Visi &
+						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('profile#vision');?>">Visi
+								&
 								Misi</a></h4>
 						<p class="text-navy mb-0 font-pala">Ambisi kami yang kemudian menjadi daya dorong untuk terus
 							maju dan
@@ -272,13 +271,13 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/home/biji.png" class="avatar"
+						<img src="<?=base_url();?>assets/images/home/biji.png" class="avatar"
 							style="height: 85px; width: 85px;" alt="">
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy"
-								href="<?= site_url('product#resin'); ?>">Bijih Plastik
+						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('product#resin');?>">Bijih
+								Plastik
 								Daur Ulang</a>
 						</h4>
 						<p class="text-navy mb-0 font-pala">Produk ramah lingkungan yang menjadi inti dan asal identitas
@@ -292,13 +291,13 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/home/management.png" class="avatar"
+						<img src="<?=base_url();?>assets/images/home/management.png" class="avatar"
 							style="height: 85px; width: 85px;" alt="">
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy"
-								href="<?= site_url('management'); ?>">Manajemen SDM</a>
+						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('management');?>">Manajemen
+								SDM</a>
 						</h4>
 						<p class="text-navy mb-0 font-pala">Filosofi manajemen sumber daya manusia kami untuk berkembang
 							bersama
@@ -311,12 +310,12 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/home/job.png" class="avatar"
+						<img src="<?=base_url();?>assets/images/home/job.png" class="avatar"
 							style="height: 85px; width: 85px;" alt="">
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy" href="<?= site_url('career'); ?>">Kesempatan
+						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('career');?>">Kesempatan
 								Berkarir</a></h4>
 						<p class="text-navy mb-0 font-pala">Daftar lowongan posisi yang sedang tersedia beserta
 							instruksi
@@ -349,7 +348,7 @@
 						<div class="card border-0 work-container work-classic">
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
-									style="background-image: url('<?= base_url(); ?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+									style="background-image: url('<?=base_url();?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
 									<h5 class="mb-0"><a href="javascript:void(0)"
 											class="text-dark title font-pala">Judul
@@ -363,7 +362,7 @@
 						<div class="card border-0 work-container work-classic">
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
-									style="background-image: url('<?= base_url(); ?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+									style="background-image: url('<?=base_url();?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
 									<h5 class="mb-0"><a href="javascript:void(0)"
 											class="text-dark title font-pala">Judul
@@ -377,7 +376,7 @@
 						<div class="card border-0 work-container work-classic">
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
-									style="background-image: url('<?= base_url(); ?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
+									style="background-image: url('<?=base_url();?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
 								<div class="content p-3">
 									<h5 class="mb-0"><a href="javascript:void(0)"
 											class="text-dark font-pala title">Judul
@@ -390,7 +389,7 @@
 				</div>
 			</div>
 			<div class="col-md-8 order-1 order-md-2">
-				<img src="<?= base_url(); ?>assets/images/home/sumpah pemuda-01.svg" class="img-fluid" alt="">
+				<img src="<?=base_url();?>assets/images/home/sumpah.png" class="img-fluid" alt="">
 			</div>
 		</div>
 	</div>
