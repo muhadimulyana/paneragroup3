@@ -17,34 +17,33 @@
 		<div class="row justify-content-center mt-5">
 			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
 				<h1 class="heading text-white mb-3 font-pala">Kantong Plastik</h1>
-				<p class="text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				<p class="text-white">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-					mollit anim id est laborum.</p>
+				<p class="text-white mb-2">Kantong Plastik LOCO adalah merek dagang milik Pan Era Group untuk produk
+					kantong plastik.</p>
+				<p class="text-white">Bahan baku utama untuk memproduksi kantong plastik LOCO adalah biji plastik daur
+					ulang produksi Pan Era Group.
+				</p>
 				<img src="<?= base_url(); ?>assets/images/product/plastik eko.png" class="img-fluid mb-5" alt="">
 				<div class="text-center mb-5">
-					<p class="text-white">Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
-						deserunt
-						mollit anim id est laborum. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt
-						mollit anim id est laborum.</p>
+					<p class="text-white">Dengan demikian, <span style="font-size: 20px;">kantong plastik
+							LOCO</span><br>menjadi kantong plastik ramah lingkungan
+						apabila dibandingkan dengan kantong plastik yang berbahan dasar biji plastik orisinal
+					</p>
 				</div>
 				<img src="<?= base_url(); ?>assets/images/product/anti panas2.png" class="img-fluid mb-3" alt="">
 			</div>
 			<div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
 				<img src="<?= base_url(); ?>assets/images/product/loco tebal2.png" class="img-fluid mb-5" alt="">
 				<div class="text-center mb-5">
-					<p class="text-white">Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
-						deserunt
-						mollit anim id est laborum. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt
-						mollit anim id est laborum.</p>
+					<p class="text-white"><span style="font-size: 20px;">Kantong HDPE Kebanggaan Kami
+						</span> <br>Merek kantong plastik yang pertama kali diluncurkan pada tahun 1999 ini kini telah
+						menjelma menjadi sebuah merek terkemuka yang menjadi salah satu pemimpin segmen pasar yang
+						selalu dipercaya pelanggan. </p>
 				</div>
 				<img src="<?= base_url(); ?>assets/images/product/rainbow.png" class="img-fluid mb-5" alt="">
 				<div class="text-center mb-5">
-					<p class="text-white mb-3">Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
-						deserunt
-						mollit anim id est laborum.</p>
+					<p class="text-white mb-3">Untuk informasi lebih lanjut mengenai kantong plastik LOCO, silahkan
+						mengunjungi situs merek kami
+					</p>
 					<a href="javascript:void(0)" class="btn btn-light btn-pills btn-lg">http://www.loco.co.id</a>
 				</div>
 			</div>

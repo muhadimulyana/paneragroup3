@@ -63,7 +63,7 @@
 				<div class="title-heading mt-4 ml-lg-5">
 					<span class="heading mb-3 text-white text-large font-optimus text-uppercase">Profil Perusahaan
 					</span>
-					<p class="para-desc text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="para-desc text-white">Informasi lebih lanjut tentang PAN ERA GROUP</p>
 					<div class="watch-video mt-4 pt-2">
 						<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase">Selengkapnya</a>
 					</div>
@@ -89,9 +89,11 @@
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
 				<div class="section-title mb-4 pb-2">
-					<h3 class="title mt-5 mb-4 font-pala">Produk Kami</h3>
-					<p class="para-desc mx-auto mb-0 font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h3 class="title mt-5 mb-4 font-pala text-navy">Produk Kami</h3>
+					<p class="para-desc mx-auto mb-0 font-pala text-navy">Produk ramah lingkungan yang menjadi inti dan
+						asal
+						identitas kami. Serta LOCO, kantong plastik kebanggaan besar kami yang kami kembangkan
+					</p>
 				</div>
 			</div>
 			<!--end col-->
@@ -104,21 +106,21 @@
 						<li>
 							<img class="img-fluid img-product"
 								src="<?=base_url();?>assets/images/home/loco tebal.png" />
-							<h4 class="text-center font-pala">Loco Tebal</h4>
+							<h4 class="text-center font-pala text-navy">Loco Tebal</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product" src="<?=base_url();?>assets/images/home/loco eco.png" />
-							<h4 class="text-center font-pala">Loco Ekonomis</h4>
+							<h4 class="text-center font-pala text-navy">Loco Ekonomis</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product"
 								src="<?=base_url();?>assets/images/home/anti-panas.png" />
-							<h4 class="text-center font-pala">Loco Anti Panas</h4>
+							<h4 class="text-center font-pala text-navy">Loco Anti Panas</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product"
 								src="<?=base_url();?>assets/images/home/loco rainbow.png" />
-							<h4 class="text-center font-pala">Loco Rainbow</h4>
+							<h4 class="text-center font-pala text-navy">Loco Rainbow</h4>
 						</li>
 					</ul>
 				</div>
@@ -133,14 +135,15 @@
 		<div class="row mt-5">
 			<div class="col-lg-12">
 				<div class="mt-5 pt-2 text-center">
-					<h3 class="mb-2 font-pala">Kami Adalah Organisasi <br> Yang Berdedikasi Pada Alam, Berorientasi Pada
+					<h3 class="mb-2 font-pala text-navy">Kami Adalah Organisasi <br> Yang Berdedikasi Pada Alam,
+						Berorientasi Pada
 						Kualitas
 					</h3>
-					<p class="para-desc font-pala mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+					<p class="para-desc font-pala text-navy mx-auto mb-0">Kami tetap berkomitmen untuk memenuhi
+						kebutuhan Anda,
+						silahkan untuk menghubungi nomor telepon kami agar mendapatkan contact distributor produk
+						plastik kami.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -179,11 +182,14 @@
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
 						<div class="section-title position-relative" style="z-index:1;">
-							<h4 class="title-dark text-white mb-4 font-optimus text-large">PAN ERA GROUP</h4>
-							<p class="text-light para-desc para-dark mx-auto font-pala">Start working with PAN ERA GROUP
+							<h4 class="title-dark text-white mb-4 font-weight-light font-optimus text-large">PAN ERA
+								GROUP</h4>
+							<h5 class="text-light font-weight-light h5ara-desc para-dark mx-auto font-pala">Start
+								working with PAN ERA
+								GROUP
 								that can
-								provide
-								everything you need to generate skills, communication, and experience.</p>
+								provide<br>
+								everything you need to generate skills, communication, and experience.</h5>
 						</div>
 					</div>
 					<!--end col-->
@@ -197,11 +203,14 @@
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
 						<div class="section-title position-relative" style="z-index:1;">
-							<h4 class="title-dark text-white mb-4 font-optimus text-large">PAN ERA GROUP</h4>
-							<p class="text-light para-desc para-dark mx-auto font-pala">Start working with PAN ERA GROUP
+							<h4 class="title-dark text-white mb-4 font-weight-light font-optimus text-large">PAN ERA
+								GROUP</h4>
+							<h5 class="text-light font-weight-light h5ara-desc para-dark mx-auto font-pala">Start
+								working with PAN ERA
+								GROUP
 								that can
-								provide
-								everything you need to generate skills, communication, and experience.</p>
+								provide<br>
+								everything you need to generate skills, communication, and experience.</h5>
 						</div>
 					</div>
 					<!--end col-->

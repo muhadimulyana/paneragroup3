@@ -44,10 +44,7 @@
 			</div>
 			<div class="col-md-6 order-2 order-md-1">
 				<h5 class="text-navy font-pala">Hubungi PAN ERA Group,</h5>
-				<p class="text-navy font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p class="text-navy font-pala">Temukan biji plastik dan kantong plastik daur ulang High Quality </p>
 				<div class="form-group">
 					<input name="name" id="name" type="text" class="form-control" placeholder="*Your name">
 				</div>

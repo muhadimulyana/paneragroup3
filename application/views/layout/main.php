@@ -4,12 +4,6 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
-	<meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
-	<meta name="author" content="Shreethemes" />
-	<meta name="email" content="shreethemes@gmail.com" />
-	<meta name="website" content="http://www.shreethemes.in" />
-	<meta name="Version" content="v2.5.1" />
 	<!-- favicon -->
 	<link href="<?= base_url(); ?>assets/images/favicon/p.png" rel="icon">
 	<title><?= $this->lang->line('text_title'); ?></title>
@@ -133,6 +127,12 @@
 			font-family: Arial, Helvetica, sans-serif;
 		}
 
+		.active2 {
+			color: white !important;
+			font-weight: 700 !important;
+			text-decoration: underline !important;
+		}
+
 		/* .link-menu-header:active {
 			color: #fff !important;
 			text-decoration: underline !important;
@@ -140,6 +140,10 @@
 
 
 		@media only screen and (max-width: 991px) {
+
+			.active2 {
+				text-decoration: none !important;
+			}
 
 			#topnav {
 				background-color: #ffffff !important;
