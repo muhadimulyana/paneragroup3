@@ -15,6 +15,11 @@
 		height: 100%;
 	}
 
+	.font-gabriola {
+		font-size: 22px;
+		font-weight: 500;
+	}
+
 </style>
 <!-- Product Start -->
 <section class="section"
@@ -34,28 +39,28 @@
 				<img src="<?= base_url(); ?>assets/images/profile/visi-01.svg" class="img-fluid" style="width: 190px"
 					alt="">
 				<span class="font-pala text-secondary" style="font-size: 40px;">Vision</span>
-				<p class="text-white mt-4 font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod
-					tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p class="text-white mt-4 font-gabriola">Untuk menjadi pelopor dan teladan, pada skala nasional dan
+					internasional, dalam menjalankan dan mengembangkan industri daur ulang plastik, yang akan mendukung
+					terciptanya lingkungan hidup yang berkelanjutan (Sustainable Living Environment).</p>
 			</div>
 			<div class="col-md-6">
 				<img src="<?= base_url(); ?>assets/images/profile/misi-01.svg" style="width: 180px" class="img-fluid"
 					alt="">
 				<span class="font-pala text-secondary" style="font-size: 40px;">Mision</span>
 				<ul class="list-unstyled mt-3 text-white">
-					<li class="mb-2 font-pala"><i data-feather="disc" class="fea icon-sm mr-2"></i>Lorem ipsum dolor sit
-						amet,
-						consectetur
-						adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-					<li class="mb-2 font-pala"><i data-feather="disc" class="fea icon-sm mr-2"></i>Ut enim ad minim
-						veniam, quis
-						nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-					<li class="font-pala"><i data-feather="disc" class="fea icon-sm mr-2"></i>Duis aute irure dolor in
-						reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li>
+					<li class="mb-2 font-gabriola"><i data-feather="disc" class="fea icon-sm mr-2"></i>Menyediakan
+						produk
+						berkualitas yang selalu dapat melebihi ekspektasi pelanggan.
+					</li>
+					<li class="mb-2 font-gabriola"><i data-feather="disc" class="fea icon-sm mr-2"></i>Mengembangkan dan
+						menggalakkan industri daur ulang yang memberikan efek positif terhadap lingkungan hidup (ramah
+						lingkungan).
+					</li>
+					<li class="font-gabriola"><i data-feather="disc" class="fea icon-sm mr-2"></i>Menjadi organisasi
+						yang
+						menunaikan tanggung jawab sosial korporasi, baik secara eksternal mau pun internal, secara
+						berkelanjutan.
+					</li>
 				</ul>
 			</div>
 		</div>

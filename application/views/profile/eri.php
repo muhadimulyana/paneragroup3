@@ -60,34 +60,30 @@
 	</div>
 </section>
 
-<section class="section" style="background-color: #c8c6e7;">
+<section class="section" style="background-color: #c8c6e7; padding-top: 50px;">
 	<div class="container p-lg-4">
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="text-navy font-optimus font-weight-light text-uppercase mb-4" style="line-height: 1;">
 					Profil<br>Perusahaan</h5>
-					<p class="text-navy text-justify font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do
-						eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-						in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<p class="text-navy text-justify font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do
-						eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non
-						consectetur. Semper auctor neque vitae tempus quam pellentesque nec. Ultricies leo integer
-						malesuada nunc vel. Odio euismod lacinia at quis risus sed. Orci porta non pulvinar neque
-						laoreet suspendisse interdum consectetur libero. Urna nunc id cursus metus. Sagittis purus sit
-						amet volutpat consequat mauris nunc congue. Leo in vitae turpis massa. Massa tempor nec feugiat
-						nisl pretium fusce id velit.</p>
-					<p class="text-navy text-justify font-pala">Elit sed vulputate mi sit amet mauris commodo quis
-						imperdiet.
-						Habitasse platea
-						dictumst vestibulum rhoncus. Consectetur a erat nam at. Mattis ullamcorper velit sed ullamcorper
-						morbi. Dolor purus non enim praesent elementum facilisis leo. Vestibulum morbi blandit cursus
-						risus
-						at ultrices mi. Enim ut sem viverra aliquet eget sit amet tellus.</p>
+					<p class="text-navy text-justify font-pala">Didirikan pada tahun 2011, PT Elite Recycling Indonesia
+						merupakan bagian dari visi organisasi untuk mewujudkan sebuah industri, daur ulang yang modern
+						dan professional. Adalah ambisi organisasi kami untuk membentuk sebuah perusahaan yang kelak
+						dapat menjadi tolak ukur dalam industri daur ulang limbah plastik di Indonesia. Oleh karena itu
+						seluruh komponen fisik perusahaan didesain sedemikian rupa untuk sedapat mungkin memenuhi
+						standar industri paling modern. </p>
+					<p class="text-navy text-justify font-pala"><span style="font-size: 24px;">Teknologi dan
+							strategi</span> manajemen industri
+						di PT Elite
+						Recycling Indonesia mengadopsi apa yang selama ini telah dibangun dan dikembangkan oleh PT
+						Elastis Reka Aktif. </p>
+					<p class="text-navy text-justify font-pala">Pada saat ini, PT Elite Recycling Indonesia masih dalam
+						tahap pertumbuhan. Namun semenjak tahap perancangan sudah diproyeksikan untuk menjach fasilitas
+						daur ulang bertaraf internasional. Segala sarana dan prasarana pabrik didesain secara seksama,
+						agar dapat memenuhi standar indus-tri modern.</p>
+					<p class="text-navy text-justify font-pala">PT Elite Recyling Indonesia diharapkan dapat
+						mendemonstrasikan sebuah lompatan besar dalam perkembangan industri, daur ulang di Indonesia,
+						khususnya daur ulang limbah plastik. </p>
 			</div>
 		</div>
 		<div class="row">

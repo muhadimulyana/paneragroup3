@@ -15,9 +15,10 @@
 				<div class="title-heading p-3">
 					<h1 class="display-4 font-weight-light text-white title-dark mb-3 text-uppercase font-optimus">
 						Tentang Kami</h1>
-					<p class="text-white text-uppercase font-optimus">Duis aute irure dolor in reprehenderit in <br>
-						voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur. </p>
+					<p class="text-white text-uppercase font-optimus">KAMI ADALAH ORGANISASI YANG BERDEDIKASI PADA
+						ALAM<br>
+						BERORIENTASI PADA KUALITAS.
+					</p>
 				</div>
 			</div>
 			<!--end col-->
@@ -40,19 +41,12 @@
 	<div class="container">
 		<div class="row justify-content-center mb-5">
 			<div class="col-md-12">
-				<p class="font-pala text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod
-					tempor
-					incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Quis risus sed
-					vulputate odio ut enim blandit. Nunc pulvinar sapien et ligula ullamcorper. Vel orci porta non
-					pulvinar neque laoreet suspendisse interdum. </p>
-				<p class="font-pala text-center">Augue interdum velit euismod in. Laoreet id donec ultrices
-					tincidunt
-					arcu non.
-					Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Sit amet volutpat consequat
-					mauris nunc congue nisi. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Aliquam malesuada
-					bibendum arcu vitae elementum. Massa tempor nec feugiat nisl pretium fusce id. Eu tincidunt tortor
-					aliquam nulla facilisi cras fermentum odio.
+				<p class="font-pala text-center">Pan Era Group dibentuk pada tahun 2011, dan pada awalnya merupakan
+					gabungan dari dua buah perusahaan,<br> PT Elastis Reka Aktif dan PT Elite Recycling Indonesia.</p>
+				<p class="font-pala text-center">Kami percaya bahwa daur ulang adalah salah satu solusi utama terhadap
+					masalah keberlanjutan lingkungan hidup (sustainability problem).Dengan kegiatan daur ulang, tidak
+					hanya jumlah limbah yang beredar di lingkungandapat berkurang, namun juga masyarakat dapat menikmati
+					produk yang diproduksi dengan energi yang lebih rendah.
 
 				</p>
 			</div>
@@ -104,7 +98,7 @@
 	<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
 		<div class="modal-content rounded shadow border-0">
 			<div class="modal-header" style="background-color: #9e9dd3; ">
-				<h5 class="modal-title" id="exampleModalCenterTitle">Sertifikat </h5>
+				<h5 class="modal-title font-pala" id="exampleModalCenterTitle">Sertifikat </h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -127,7 +121,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-secondary font-pala" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>

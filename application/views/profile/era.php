@@ -46,7 +46,8 @@
 					Ulang, Kantong Plastik</h5>
 			</div>
 			<div class="col-md-12 mt-5 mt-md-5 text-center text-md-left">
-				<h5 class="text-white font-weight-light font-pala">Lokasi <br> Jalan Kapuk Raya<br> No. 88 E, F, G Penjaringan
+				<h5 class="text-white font-weight-light font-pala">Lokasi <br> Jalan Kapuk Raya<br> No. 88 E, F, G
+					Penjaringan
 					<br>
 					Jakarta Utara
 					<br> DKI Jakarta
@@ -59,34 +60,30 @@
 	</div>
 </section>
 
-<section class="section" style="background-color: #c8c6e7;">
+<section class="section" style="background-color: #c8c6e7; padding-top: 50px;">
 	<div class="container p-lg-4">
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="text-navy font-optimus font-weight-light text-uppercase mb-4" style="line-height: 1;">
 					Profil<br>Perusahaan</h5>
-					<p class="text-navy text-justify font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do
-						eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-						in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<p class="text-navy text-justify font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do
-						eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non
-						consectetur. Semper auctor neque vitae tempus quam pellentesque nec. Ultricies leo integer
-						malesuada nunc vel. Odio euismod lacinia at quis risus sed. Orci porta non pulvinar neque
-						laoreet suspendisse interdum consectetur libero. Urna nunc id cursus metus. Sagittis purus sit
-						amet volutpat consequat mauris nunc congue. Leo in vitae turpis massa. Massa tempor nec feugiat
-						nisl pretium fusce id velit.</p>
-					<p class="text-navy text-justify font-pala">Elit sed vulputate mi sit amet mauris commodo quis
-						imperdiet.
-						Habitasse platea
-						dictumst vestibulum rhoncus. Consectetur a erat nam at. Mattis ullamcorper velit sed ullamcorper
-						morbi. Dolor purus non enim praesent elementum facilisis leo. Vestibulum morbi blandit cursus
-						risus
-						at ultrices mi. Enim ut sem viverra aliquet eget sit amet tellus.</p>
+					<p class="text-navy text-justify font-pala">PT Elastis Reka Aktif memulai hidupnya sebagai PD Era
+						Plastik, yang didirikan pada tahun 1988. Pada awalnya, PD Era Plastik hanya bergerak di bidang
+						jual beli dan pengolahan limbah plastik. Pada tahun 2004 PD Era Plastik dibentuk menjadi PT
+						Elastis Reka Aktif, namun hingga sekarang masih banyak juga dikenal dengan sebutan ERA Plastik.
+					</p>
+					<p class="text-navy text-justify font-pala">Bergerak dari bidang perdagangan limbah plastik,PT
+						Elastis Reka Aktif kemudian mengembangkan lini bisnisnya menjadi pendauran ulang limbah plastik.
+						Aktivitas pendauran ulang limbah plastik yang kemudian memberikan identitas kepada organisasi
+						kami, dan juga sebagai sumber inspirasi kami. </p>
+					<p class="text-navy text-justify font-pala"> PT Elastis Reka Aktif kemudian memulai produksi kantong
+						plasti dengan merek LOCO, yang sekarang telah menjelma menjadi sebuah merek yang dikenal baik di
+						pasaran atas kualitasnya.</p>
+					<p class="text-navy text-justify font-pala"> <span style="font-size: 24px;">KANTONG PLASTIK
+							LOCO</span> Diproduksi dengan berbahan utama
+						bahan hasil daur ulang limbah plastik yang diolah perusahaan.Peningkatan nilai tambah pada
+						barang jadi tersebut PT Elastis Reka Aktif didasari atas pengertian akan filosofi daur ulang,
+						yakni pengembalian limbah ke tingkat yang tertinggi mungkin pada tangga hirarki siklus hidup
+						produk. </p>
 			</div>
 		</div>
 		<div class="row">
