@@ -38,7 +38,7 @@
 	<div class="container pb-lg-4">
 		<div class="row align-items-center">
 			<div class="col-md-12">
-				<h2 class="heading font-pala font-weight-light text-white">We are</h2>
+				<h1 class="heading font-pala font-weight-light text-white font-gabriola">We are</h1>
 				<h1 class="text-xl-career font-optimus font-weight-light text-white" style="margin-top: -40px;">HIRING
 				</h1>
 
@@ -51,13 +51,11 @@
 	<div class="container p-lg-4">
 		<div class="row">
 			<div class="col-md-6 order-2 order-md-1">
-				<h5 class="text-navy font-pala">Gabung Bersama</h5>
+				<h2 class="text-navy font-gabriola mb-0">Gabung Bersama</h2>
 				<h1 class="text-navy font-pala">Pan Era Group</h5>
 					<p class="text-navy font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-						in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						Kami selalu membuka kesempatan bagi tenaga kerja yang berkualitas untuk bergabung dengan kami.
+						Tenaga kerja yang diterima akan diperkerjakan di salah satu perusahaan Pan Era Group </p>
 					<a href="<?= site_url('career/list'); ?>" class="font-pala btn bg-navy btn-pills btn-xl text-white"
 						style="background-color: #282c73 !important;">Daftar Lowongan</a>
 			</div>
@@ -74,18 +72,14 @@
 	<div class="container justify-content-center p-5">
 		<div class="row text-center">
 			<div class="col-md-12">
-				<h5 class="text-white text-serif font-weight-light">Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris
-					nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur <br><br> Lectus sit amet est placerat in:</h5>
+				<h5 class="text-white text-serif font-weight-light">Apabila tidak ada lowongan atas posisi yang sesuai
+					dengan pengalaman mau pun keahlian anda, silahkan mengirimkan surat lamaran <br><br> Ke email
+					berikut:</h5>
 				<a href="javascript:void(0)"
 					class="btn btn-light btn-pills btn-lg text-serif">hrd@paneragroup.com</a><br>
-				<small class="text-white text-serif">Ut tellus elementum sagittis vitae</small>
-				<h5 class="text-white mt-3 text-serif font-weight-light">Amet tellus cras adipiscing enim eu turpis
-					egestas. Sed velit
-					dignissim
-					sodales ut eu sem integer vitae. Turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</h5>
+				<small class="text-white text-serif">Format: PDF/Ms Word, Maks 300KB</small>
+				<h5 class="text-white mt-3 text-serif font-weight-light">Lamaran anda akan kami pertimbangkan dan
+					dimasukkan ke dalam database kami. </h5>
 			</div>
 		</div>
 </section>

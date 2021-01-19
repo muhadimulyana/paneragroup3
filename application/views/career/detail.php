@@ -7,6 +7,11 @@
 		background-color: rgb(255, 255, 255, 0) !important;
 	}
 
+	section {
+		font-family: Pala;
+		color: #282c73;
+	}
+
 </style>
 <!-- Product Start -->
 <section class="section"
@@ -14,14 +19,16 @@
 	<div class="container pb-lg-4 mb-md-5 mt-5">
 		<div class="row">
 			<div class="col-md-6 order-2 order-md-1">
-				<h1>PAN ERA GROUP</h1>
-				<h4>ORIENTASI KAMI ADALAH KEGIATAN PENDAURAN ULANG PLASTIK</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.</p>
+				<h1 class="font-optimus text-navy font-weight-normal">PAN ERA GROUP</h1>
+				<h4 class="font-pala text-navy font-weight-normal">ORIENTASI KAMI ADALAH KEGIATAN PENDAURAN ULANG
+					PLASTIK</h4>
+				<p class="font-pala text-navy">Yaitu mengubah barang yang tak terpakai menjadi produk yang siap
+					digunakan kembali, sehingga
+					mengurangi dampak kerusakan lingkungan seperti pemanasan global dan keterbatasan sumber energi.
+					Untuk mengenal profil perusahaan lebih lanjut, silahkan mengunjungi website perusahaan kami d</p>
 				<div class="text-center">
-					<a href="javascrip:void" class="btn btn-navy btn-pills text-center"
-						style="font-size: 25px;">www.paneragroup.com</a>
+					<a href="javascrip:void" class="btn btn-navy btn-pills text-center font-pala text-navy"
+						style="font-size: 25px;">www.PANERAGroup.com</a>
 				</div>
 			</div>
 			<div class="col-md-6 order-1 order-md-2 text-center">
@@ -30,72 +37,71 @@
 		</div>
 	</div>
 	<div class="col-12 p-0">
-		<h5 class="text-center p-2 text-white mb-0 text-capitalize" style="background-color:rgb(7, 2, 76, 0.8); ">
-			Excepteur sint
-			occaecat cupidatat non proident sunt in culpa qui officia <br> deserunt mollit anim id est laborum.</h5>
+		<h5 class="text-center p-2 text-white mb-0 text-capitalize font-pala font-weight-normal"
+			style="background-color:rgb(7, 2, 76, 0.8); ">
+			KAMI MENJADI PERUSAHAAN YANG TERDEPAN DI BIDANGNYA <br>DAN SELALU MENGABDI PADA LINGKUNGAN </h5>
 	</div>
-	<div class="container mt-5">
-		<div class="row border border-success p-3">
+	<div class="container mt-2 mt-md-5">
+		<div class="row p-1 p-md-3">
 			<div class="col-lg-4 col-md-5 col-12">
-				<div class="card sidebar rounded bg-transparent border-0">
-					<div class="card-body widget border-bottom">
-						<h5 class="mb-0">Job Information</h5>
-					</div>
-
+				<div class="card sidebar border-0 rounded bg-transparent">
+					<!-- <div class="card-body widget">
+						<h5 class="mb-0 font-pala">Job Information</h5>
+					</div> -->
 					<div class="card-body">
 						<div class="media widget align-items-center">
 							<i data-feather="user-check" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Employee Type:</h4>
-								<p class="text-primary mb-0">Full Time</p>
+								<h4 class="widget-title mb-0 font-pala">Employee Type:</h4>
+								<p class="mb-0">Full Time</p>
 							</div>
 						</div>
 
 						<div class="media widget align-items-center mt-3">
 							<i data-feather="map-pin" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Location:</h4>
-								<p class="text-primary mb-0">Cikarang, Jawa Barat, Indonesia</p>
+								<h4 class="widget-title mb-0 font-pala">Location:</h4>
+								<p class="mb-0">Cikarang, Jawa Barat, Indonesia</p>
 							</div>
 						</div>
 
 						<div class="media widget align-items-center mt-3">
 							<i data-feather="monitor" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Job Type:</h4>
-								<p class="text-primary mb-0">Back-end Developer</p>
+								<h4 class="widget-title mb-0 font-pala">Job Type:</h4>
+								<p class="mb-0">Payroll and General Affair Staff</p>
 							</div>
 						</div>
 
 						<div class="media widget align-items-center mt-3">
 							<i data-feather="briefcase" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Experience:</h4>
-								<p class="text-primary mb-0">+2 Year</p>
+								<h4 class="widget-title mb-0 font-pala">Experience:</h4>
+								<p class="mb-0">+1 Year</p>
 							</div>
 						</div>
 
 						<div class="media widget align-items-center mt-3">
 							<i data-feather="book" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Qualifications:</h4>
-								<p class="text-primary mb-0">Bachelor Degree</p>
+								<h4 class="widget-title mb-0 font-pala">Qualifications:</h4>
+								<p class="mb-0">Bachelor Degree</p>
 							</div>
 						</div>
 
 						<div class="media widget align-items-center mt-3">
 							<i data-feather="dollar-sign" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Salary:</h4>
-								<p class="text-primary mb-0">-</p>
+								<h4 class="widget-title mb-0 font-pala">Salary:</h4>
+								<p class="mb-0">-</p>
 							</div>
 						</div>
 
 						<div class="media widget align-items-center mt-3">
 							<i data-feather="clock" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
-								<h4 class="widget-title mb-0">Date posted:</h4>
-								<p class="text-primary mb-0 mb-0">5th Oct, 2020</p>
+								<h4 class="widget-title mb-0 font-pala">Date posted:</h4>
+								<p class="mb-0 mb-0">5th Oct, 2020</p>
 							</div>
 						</div>
 
@@ -104,71 +110,54 @@
 			</div>
 			<!--end col-->
 
-			<div class="col-lg-8 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+			<div class="col-lg-8 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 border-left">
 				<div class="ml-lg-4">
-					<h5>Job Description: </h5>
-					<p>One disadvantage of Lorum Ipsum is that in Latin certain letters appear more
-						frequently than others - which creates a distinct visual impression. Moreover, in Latin only
-						words at the beginning of sentences are capitalized.</p>
-					<p>This means that Lorem Ipsum cannot accurately represent, for example, German,
-						in which all nouns are capitalized. Thus, Lorem Ipsum has only limited suitability as a visual
-						filler for German texts. If the fill text is intended to illustrate the characteristics of
-						different typefaces.</p>
-					<p>It sometimes makes sense to select texts containing the various letters and
-						symbols specific to the output language.</p>
-
-					<h5 class="mt-4">Responsibilities and Duties: </h5>
-					<p>It sometimes makes sense to select texts containing the various letters and
-						symbols specific to the output language.</p>
+					<h5 class="mt-4 font-pala">Job Description: </h5>
 					<ul class="list-unstyled">
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Participate in
-							requirements analysis</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Write clean,
-							scalable code using C# and .NET
-							frameworks</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Test and deploy
-							applications and systems</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Revise, update,
-							refactor and debug code</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Improve existing
-							software</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Develop
-							documentation throughout the software
-							development life cycle (SDLC)</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Serve as an expert
-							on applications and provide
-							technical support</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Melakukan pemantauan absensi
+							dan perijinan karyawan.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Melakukan perhitungan dan
+							pengupahan karyawan.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Melakukan kepengurusan BPJS
+							Kesehatan dan Ketenagakerjaan.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Melakukan koordinasi kinerja
+							outsourcing.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Mengatur pembelian barang /
+							pembelanjaan untuk aset-aset perusahaan.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Melakukan pengawasan terhadap
+							perawatan, pemeliharaan dan keamanan lingkungan serta aset-aset perusahaan, kepengurusan
+							surat-surat perizinan, dan pengelolaan stock office supplies.
+						</li>
 					</ul>
 
-					<h5 class="mt-4">Required Experience, Skills and Qualifications: </h5>
-					<p>It sometimes makes sense to select texts containing the various letters and
-						symbols specific to the output language.</p>
+					<h5 class="mt-4 font-pala">Required Experience, Skills and Qualifications: </h5>
 					<ul class="list-unstyled">
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Proven experience
-							as
-							a .NET Developer or
-							Application Developer</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>good understanding
-							of SQL and Relational
-							Databases, specifically Microsoft SQL Server.</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Experience
-							designing, developing and creating
-							RESTful web services and APIs</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Basic know how of
-							Agile process and practices
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Usia maksimal 30 tahun.
 						</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Good understanding
-							of object-oriented
-							programming.</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Good understanding
-							of concurrent programming.
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Pendidikan minimal D3 (jurusan
+							Ekonomi / Finance diutamakan).
 						</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Sound knowledge of
-							application architecture
-							and design.</li>
-						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i>Excellent problem
-							solving and analytical
-							skills</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Pengalaman minimal 1 tahun
+							sebagai HRD / Payroll Staff / GA Staff di perusahaan manufakturing, atau
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Pengalaman minimal 2 tahun
+							sebagai Finance Staff.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Berpengalaman dalam mengurus
+							stok (alat tulis dan rumah tangga kantor) serta aset perusahaan.
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Mampu mengoperasikan komputer
+							dengan baik (terutama Ms. Excel).
+						</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Jujur, Teliti dan Bertanggung
+							Jawab.</li>
+						<li><i data-feather="check-square" class="fea icon-sm mr-2"></i> Bersedia untuk ditempatkan di
+							daerah Cikarang Selatan.</li>
 					</ul>
 
 					<div class="mt-4">
