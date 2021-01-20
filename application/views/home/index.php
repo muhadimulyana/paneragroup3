@@ -63,9 +63,10 @@
 				<div class="title-heading mt-4 ml-lg-5">
 					<span class="heading mb-3 text-white text-large font-optimus text-uppercase">Profil Perusahaan
 					</span>
-					<p class="para-desc text-white">Informasi lebih lanjut tentang PAN ERA GROUP</p>
+					<p class="para-desc text-white font-pala">Informasi lebih lanjut tentang PAN ERA GROUP</p>
 					<div class="watch-video mt-4 pt-2">
-						<a href="javascript:void(0)" class="btn btn-light btn-pills text-uppercase">Selengkapnya</a>
+						<a href="javascript:void(0)"
+							class="btn btn-light btn-pills text-uppercase font-pala">Selengkapnya</a>
 					</div>
 				</div>
 			</div>
@@ -240,97 +241,113 @@
 
 		<div class="row justify-content-center">
 			<div class="col-md-4 col-12 mt-5">
-				<div class="features text-center">
-					<div class="image position-relative d-inline-block">
-						<img src="<?=base_url();?>assets/images/home/build.png" class="avatar"
-							style="height: 85px; width: 85px;" alt="">
-					</div>
+				<a href="<?=site_url('profile');?>">
+					<div class="features text-center">
+						<div class="image position-relative d-inline-block">
+							<img src="<?=base_url();?>assets/images/home/build.png" class="avatar"
+								style="height: 85px; width: 85px;" alt="">
+						</div>
 
-					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a href="<?=site_url('profile#company');?>"
-								class="text-navy">Profil
-								Perusahaan</a></h4>
-						<p class="text-navy mb-0 font-pala">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan
-							Era
-							Group</p>
+						<div class="content mt-4">
+							<h4 class="title-2 font-pala"><a href="<?=site_url('profile');?>" class="text-navy">Profil
+									Perusahaan</a></h4>
+							<p class="text-navy mb-0 font-pala">Pengenalan perusahaan - perusahaan yang tergabung dalam
+								Pan
+								Era
+								Group</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!--end col-->
 
 			<div class="col-md-4 col-12 mt-5">
-				<div class="features text-center">
-					<div class="image position-relative d-inline-block">
-						<img src="<?=base_url();?>assets/images/home/visi.png" class="avatar"
-							style="height: 85px; width: 85px;" alt="">
-					</div>
+				<a href="<?=site_url('profile/vision');?>">
+					<div class="features text-center">
+						<div class="image position-relative d-inline-block">
+							<img src="<?=base_url();?>assets/images/home/visi.png" class="avatar"
+								style="height: 85px; width: 85px;" alt="">
+						</div>
 
-					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('profile#vision');?>">Visi
-								&
-								Misi</a></h4>
-						<p class="text-navy mb-0 font-pala">Ambisi kami yang kemudian menjadi daya dorong untuk terus
-							maju dan
-							berkembang</p>
+						<div class="content mt-4">
+							<h4 class="title-2 font-pala"><a class="text-navy"
+									href="<?=site_url('profile/vision');?>">Visi
+									&
+									Misi</a></h4>
+							<p class="text-navy mb-0 font-pala">Ambisi kami yang kemudian menjadi daya dorong untuk
+								terus
+								maju dan
+								berkembang</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!--end col-->
 
 			<div class="col-md-4 col-12 mt-5">
-				<div class="features text-center">
-					<div class="image position-relative d-inline-block">
-						<img src="<?=base_url();?>assets/images/home/biji.png" class="avatar"
-							style="height: 85px; width: 85px;" alt="">
-					</div>
+				<a href="<?=site_url('product/plastic_resin');?>">
+					<div class="features text-center">
+						<div class="image position-relative d-inline-block">
+							<img src="<?=base_url();?>assets/images/home/biji.png" class="avatar"
+								style="height: 85px; width: 85px;" alt="">
+						</div>
 
-					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('product#resin');?>">Bijih
-								Plastik
-								Daur Ulang</a>
-						</h4>
-						<p class="text-navy mb-0 font-pala">Produk ramah lingkungan yang menjadi inti dan asal identitas
-							kami
-						</p>
+						<div class="content mt-4">
+							<h4 class="title-2 font-pala"><a class="text-navy"
+									href="<?=site_url('product/plastic_resin');?>">Bijih
+									Plastik
+									Daur Ulang</a>
+							</h4>
+							<p class="text-navy mb-0 font-pala">Produk ramah lingkungan yang menjadi inti dan asal
+								identitas
+								kami
+							</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!--end col-->
 
 			<div class="col-md-4 col-12 mt-5">
-				<div class="features text-center">
-					<div class="image position-relative d-inline-block">
-						<img src="<?=base_url();?>assets/images/home/management.png" class="avatar"
-							style="height: 85px; width: 85px;" alt="">
-					</div>
+				<a href="<?=site_url('career');?>">
+					<div class="features text-center">
+						<div class="image position-relative d-inline-block">
+							<img src="<?=base_url();?>assets/images/home/management.png" class="avatar"
+								style="height: 85px; width: 85px;" alt="">
+						</div>
 
-					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('management');?>">Manajemen
-								SDM</a>
-						</h4>
-						<p class="text-navy mb-0 font-pala">Filosofi manajemen sumber daya manusia kami untuk berkembang
-							bersama
-						</p>
+						<div class="content mt-4">
+							<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('career');?>">Manajemen
+									SDM</a>
+							</h4>
+							<p class="text-navy mb-0 font-pala">Filosofi manajemen sumber daya manusia kami untuk
+								berkembang
+								bersama
+							</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!--end col-->
 
 			<div class="col-md-4 col-12 mt-5">
-				<div class="features text-center">
-					<div class="image position-relative d-inline-block">
-						<img src="<?=base_url();?>assets/images/home/job.png" class="avatar"
-							style="height: 85px; width: 85px;" alt="">
-					</div>
+				<a href="<?=site_url('career/list');?>">
+					<div class="features text-center">
+						<div class="image position-relative d-inline-block">
+							<img src="<?=base_url();?>assets/images/home/job.png" class="avatar"
+								style="height: 85px; width: 85px;" alt="">
+						</div>
 
-					<div class="content mt-4">
-						<h4 class="title-2 font-pala"><a class="text-navy" href="<?=site_url('career');?>">Kesempatan
-								Berkarir</a></h4>
-						<p class="text-navy mb-0 font-pala">Daftar lowongan posisi yang sedang tersedia beserta
-							instruksi
-							pelamaran</p>
+						<div class="content mt-4">
+							<h4 class="title-2 font-pala"><a class="text-navy"
+									href="<?=site_url('career/list');?>">Kesempatan
+									Berkarir</a></h4>
+							<p class="text-navy mb-0 font-pala">Daftar lowongan posisi yang sedang tersedia beserta
+								instruksi
+								pelamaran</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!--end col-->
 		</div>
@@ -358,11 +375,11 @@
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
 									style="background-image: url('<?=base_url();?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
-								<div class="content p-3">
-									<h5 class="mb-0"><a href="javascript:void(0)"
-											class="text-dark title font-pala">Judul
+								<div class="content p-3 rounded-bottom" style="background: #2d306f;">
+									<h5 class="mb-0"><a href="javascript:void(0)" style="color: #fff;"
+											class="title font-pala">Judul
 											Berita</a></h5>
-									<h6 class="text-muted tag mb-0 font-pala">Tanggal Berita</h6>
+									<span class="tag mb-0 font-pala" style="color: #fff;">Tanggal Berita</span>
 								</div>
 							</div>
 						</div>
@@ -372,11 +389,11 @@
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
 									style="background-image: url('<?=base_url();?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
-								<div class="content p-3">
-									<h5 class="mb-0"><a href="javascript:void(0)"
-											class="text-dark title font-pala">Judul
+								<div class="content p-3 rounded-bottom" style="background: #2d306f;">
+									<h5 class="mb-0"><a href="javascript:void(0)" style="color: #fff;"
+											class="title font-pala">Judul
 											Berita</a></h5>
-									<h6 class="text-muted tag mb-0 font-pala">Tanggal Berita</h6>
+									<span class="tag mb-0 font-pala" style="color: #fff;">Tanggal Berita</span>
 								</div>
 							</div>
 						</div>
@@ -386,11 +403,11 @@
 							<div class="card-body p-0">
 								<a href="javascript:void" class="card-img-top img-fluid rounded-top"
 									style="background-image: url('<?=base_url();?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 150px; background-position:center; display: block;"></a>
-								<div class="content p-3">
-									<h5 class="mb-0"><a href="javascript:void(0)"
-											class="text-dark font-pala title">Judul
+								<div class="content p-3 rounded-bottom" style="background: #2d306f;">
+									<h5 class="mb-0"><a href="javascript:void(0)" style="color: #fff;"
+											class="font-pala title">Judul
 											Berita</a></h5>
-									<h6 class="text-muted tag mb-0 font-pala">Tanggal Berita</h6>
+									<span class="tag mb-0 font-pala" style="color: #fff;">Tanggal Berita</span>
 								</div>
 							</div>
 						</div>
@@ -398,7 +415,7 @@
 				</div>
 			</div>
 			<div class="col-md-8 order-1 order-md-2">
-				<img src="<?=base_url();?>assets/images/home/sumpah.png" class="img-fluid" alt="">
+				<img src="<?=base_url();?>assets/images/home/sumpah2.png" class="img-fluid img-home" alt="">
 			</div>
 		</div>
 	</div>

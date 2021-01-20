@@ -31,64 +31,53 @@
 	<!-- SlickSlider -->
 	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/slick/slick-theme.css" />
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
 	<!-- JQuery -->
 	<script src="<?= base_url(); ?>assets/front/js/jquery-3.5.1.min.js"></script>
 
 	<style>
+		/* body {
+			font-family: "Catamaran", sans-serif !important;
+			overflow-x: hidden !important;
+			font-size: 16px;
+			color: #161c2d;
+		} */
+
+		body {
+			font-size: 17px !important;
+		}
+
 		.text-lang {
 			display: none;
 		}
 
-		@font-face {
-			font-family: Rimouski;
-			src: url('<?= base_url(); ?>assets/front/fonts/rimouski sb.ttf');
-		}
-
-		@font-face {
-			font-family: Couture;
-			src: url('<?= base_url(); ?>assets/front/fonts/couture-bld.otf');
-		}
-
-		@font-face {
-			font-family: Pala;
-			src: url('<?= base_url(); ?>assets/front/fonts/pala.ttf');
-		}
-
-		@font-face {
-			font-family: Optimus;
-			src: url('<?= base_url(); ?>assets/front/fonts/OptimusPrinceps.ttf');
-		}
-
-		@font-face {
-			font-family: Gabriola;
-			src: url('<?= base_url(); ?>assets/front/fonts/Gabriola.ttf');
-		}
-
 		.font-rimouski {
-			font-family: Rimouski !important;
-			font-size: 15px !important;
+			font-family: 'Catamaran' !important;
+			font-size: 17px !important;
 			text-transform: capitalize !important;
 
 		}
 
 		.font-couture {
-			font-family: Couture !important;
+			font-family: 'Catamaran' !important;
 		}
 
 		.font-optimus {
-			font-family: Optimus !important;
+			font-family: 'Catamaran' !important;
 		}
 
 		.font-pala {
-			font-family: Pala !important;
+			font-family: 'Catamaran' !important;
 		}
 
 		.font-gabriola {
-			font-family: Gabriola !important;
+			font-family: 'Catamaran' !important;
 		}
 
 		footer {
-			font-family: Pala !important;
+			font-family: 'Catamaran' !important;
 		}
 
 		.bg-tp-blue {
@@ -124,7 +113,7 @@
 		}
 
 		.text-serif {
-			font-family: Arial, Helvetica, sans-serif;
+			font-family: 'Catamaran', sans-serif !important;
 		}
 
 		.active2 {
@@ -138,11 +127,21 @@
 			text-decoration: underline !important;
 		} */
 
+		.img-home {
+			position: absolute;
+			top: 10px;
+		}
+
 
 		@media only screen and (max-width: 991px) {
 
 			.active2 {
 				text-decoration: none !important;
+			}
+
+			.img-home {
+				position: relative;
+				top: 0;
 			}
 
 			#topnav {

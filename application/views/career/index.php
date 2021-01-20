@@ -53,8 +53,8 @@
 			<div class="col-md-6 order-2 order-md-1">
 				<h2 class="text-navy font-gabriola mb-0">Gabung Bersama</h2>
 				<h1 class="text-navy font-pala">Pan Era Group</h5>
-					<p class="text-navy font-pala">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						Kami selalu membuka kesempatan bagi tenaga kerja yang berkualitas untuk bergabung dengan kami.
+					<p class="text-navy font-pala">Kami selalu membuka kesempatan bagi tenaga kerja yang berkualitas
+						untuk bergabung dengan kami.
 						Tenaga kerja yang diterima akan diperkerjakan di salah satu perusahaan Pan Era Group </p>
 					<a href="<?= site_url('career/list'); ?>" class="font-pala btn bg-navy btn-pills btn-xl text-white"
 						style="background-color: #282c73 !important;">Daftar Lowongan</a>

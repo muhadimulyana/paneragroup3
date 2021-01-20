@@ -65,7 +65,7 @@
 	<!--end container-->
 	<div class="col-12 p-0" style="margin-top: -20px;">
 		<h4 class="text-center p-2 text-white font-couture" style="background-color:rgb(7, 2, 76, 0.8); ">We Always Keep
-			Guaaranteed
+			Guaranteed
 			Quality Of
 			Our Products</h4>
 	</div>

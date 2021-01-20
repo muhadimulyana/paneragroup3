@@ -20,7 +20,7 @@
 	}
 
 	section {
-		font-family: Pala;
+		font-family: 'Catamaran';
 	}
 
 	@media only screen and (max-width: 991px) {

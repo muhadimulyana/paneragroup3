@@ -16,7 +16,7 @@
 	}
 
 	.font-gabriola {
-		font-size: 22px;
+		font-size: 17px;
 		font-weight: 500;
 	}
 

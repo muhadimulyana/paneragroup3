@@ -8,7 +8,7 @@
 	}
 
 	section {
-		font-family: Pala;
+		font-family: 'Catamaran';
 		color: #282c73;
 	}
 

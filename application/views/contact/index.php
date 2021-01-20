@@ -67,11 +67,11 @@
 			</div>
 			<div class="col-md-12 order-3 order-md-3">
 				<div class="text-center mt-5">
-					<h3 class="text-navy font-weight-light font-gabriola">Untuk info lebih lanjut, dapat menghubungi
+					<h5 class="text-navy font-weight-light font-gabriola">Untuk info lebih lanjut, dapat menghubungi
 						kami melalui email:
-					</h3>
+					</h5>
 					<a href="mailto:info@paneragroup.com">
-						<h1 class="text-navy font-gabriola font-weight-light">info@paneragroup.com</h1>
+						<h3 class="text-navy font-gabriola font-weight-light">info@paneragroup.com</h3>
 					</a>
 				</div>
 			</div>
