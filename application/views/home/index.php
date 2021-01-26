@@ -65,7 +65,7 @@
 					</span>
 					<p class="para-desc text-white font-pala">Informasi lebih lanjut tentang PAN ERA GROUP</p>
 					<div class="watch-video mt-4 pt-2">
-						<a href="javascript:void(0)"
+						<a href="<?= site_url('profile'); ?>"
 							class="btn btn-light btn-pills text-uppercase font-pala">Selengkapnya</a>
 					</div>
 				</div>
@@ -107,26 +107,27 @@
 						<li>
 							<img class="img-fluid img-product"
 								src="<?=base_url();?>assets/images/home/loco tebal.png" />
-							<h4 class="text-center font-pala text-navy">Loco Tebal</h4>
+							<h4 class="text-center font-pala text-navy">LOCO Tebal</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product" src="<?=base_url();?>assets/images/home/loco eco.png" />
-							<h4 class="text-center font-pala text-navy">Loco Ekonomis</h4>
+							<h4 class="text-center font-pala text-navy">LOCO Ekonomis</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product"
 								src="<?=base_url();?>assets/images/home/anti-panas.png" />
-							<h4 class="text-center font-pala text-navy">Loco Anti Panas</h4>
+							<h4 class="text-center font-pala text-navy">LOCO Anti Panas</h4>
 						</li>
 						<li>
 							<img class="img-fluid img-product"
 								src="<?=base_url();?>assets/images/home/loco rainbow.png" />
-							<h4 class="text-center font-pala text-navy">Loco Rainbow</h4>
+							<h4 class="text-center font-pala text-navy">LOCO Rainbow</h4>
 						</li>
 					</ul>
 				</div>
 				<div class="mt-2 pt-2 text-center">
-					<a href="javascript:void(0)" class="btn btn-dark font-pala btn-lg btn-pills text-capitalize"
+					<a href="<?= site_url('product/plastic_bag'); ?>"
+						class="btn btn-dark font-pala btn-lg btn-pills text-capitalize"
 						style="background-color: #282c73 !important;">Lihat Selengkapnya</a>
 				</div>
 			</div>
@@ -285,6 +286,24 @@
 			<!--end col-->
 
 			<div class="col-md-4 col-12 mt-5">
+				<a href="<?=site_url('product/plastic_bag');?>">
+					<div class="features text-center">
+						<div class="image position-relative d-inline-block">
+							<img src="<?=base_url();?>assets/images/home/kantong2.png" class="avatar"
+								style="height: 85px; width: 85px;" alt="">
+						</div>
+
+						<div class="content mt-4">
+							<h4 class="title-2 font-pala"><a class="text-navy"
+									href="<?=site_url('product/plastic_bag');?>">Kantong Plastik LOCO</a></h4>
+							<p class="text-navy mb-0 font-pala">Produk ramah lingkungan yang menjadi kebanggan kami</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!--end col-->
+
+			<div class="col-md-4 col-12 mt-5">
 				<a href="<?=site_url('product/plastic_resin');?>">
 					<div class="features text-center">
 						<div class="image position-relative d-inline-block">
@@ -415,7 +434,7 @@
 				</div>
 			</div>
 			<div class="col-md-8 order-1 order-md-2">
-				<img src="<?=base_url();?>assets/images/home/sumpah2.png" class="img-fluid img-home" alt="">
+				<img src="<?=base_url();?>assets/images/home/newyear2.png" class="img-fluid img-home" alt="">
 			</div>
 		</div>
 	</div>

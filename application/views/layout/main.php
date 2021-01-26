@@ -129,7 +129,7 @@
 
 		.img-home {
 			position: absolute;
-			top: 10px;
+			top: 3px;
 		}
 
 
@@ -451,6 +451,14 @@
 				}
 			]
 		});
+
+		var url_string = window.location.href;
+		var url = new URL(url_string);
+		var sertifikasi = url.searchParams.get("sertifikasi");
+
+		if (sertifikasi === '1') {
+			$("#LoginForm").modal('show');
+		}
 
 	</script>
 </body>
