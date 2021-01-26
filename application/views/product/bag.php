@@ -38,7 +38,7 @@
 				<div class="text-center mb-5">
 					<p class="text-white">Dengan demikian, <span style="font-size: 20px;">kantong plastik
 							LOCO</span><br>menjadi kantong plastik ramah lingkungan
-						apabila dibandingkan dengan kantong plastik yang berbahan dasar biji plastik orisinal
+						apabila dibandingkan dengan kantong plastik yang berbahan dasar biji plastik original
 					</p>
 				</div>
 				<img src="<?= base_url(); ?>assets/images/product/anti_panas.png" class="img-fluid mb-3" alt="">

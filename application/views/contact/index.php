@@ -46,21 +46,24 @@
 				<h5 class="text-navy font-pala">Hubungi PAN ERA Group,</h5>
 				<p class="text-navy font-pala">Temukan biji plastik dan kantong plastik daur ulang High Quality </p>
 				<div class="form-group">
-					<input name="name" id="name" type="text" class="form-control" placeholder="*Your name">
+					<input name="name" id="name" type="text" class="form-control" placeholder="*Nama">
 				</div>
 				<div class="form-group">
 					<input name="name" id="name" type="text" class="form-control" placeholder="*Email">
 				</div>
 				<div class="form-group">
-					<input name="name" id="name" type="text" class="form-control" placeholder="*Phone">
+					<input name="name" id="name" type="text" class="form-control" placeholder="*Telepon">
 				</div>
 				<div class="form-group">
-					<textarea name="name" id="name" class="form-control" cols="30" placeholder="*Message"
+					<input name="name" id="name" type="text" class="form-control" placeholder="*Perusahaan">
+				</div>
+				<div class="form-group">
+					<textarea name="name" id="name" class="form-control" cols="30" placeholder="*Pesan"
 						rows="10"></textarea>
 				</div>
 				<a href="<?=site_url('career/list');?>"
 					class="font-pala btn bg-navy btn-block btn-pills btn-xl text-white"
-					style="background-color: #282c73 !important;">Send Message</a>
+					style="background-color: #282c73 !important;">Kirim</a>
 			</div>
 			<div class="col-md-6 order-1 p-0 order-md-2 mb-2 text-center">
 				<img src="<?=base_url();?>assets/images/contact_us/icon.svg" class="img-fluid" alt="">
