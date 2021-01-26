@@ -50,7 +50,7 @@
 
 				</p>
 			</div>
-			<div class="text-center">
+			<!-- <div class="text-center">
 				<div class="row">
 					<div class="col-6 mt-5">
 						<a href="<?= site_url('profile/eri'); ?>">
@@ -87,7 +87,7 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>

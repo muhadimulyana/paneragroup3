@@ -72,8 +72,8 @@
 						dapat menjadi tolak ukur dalam industri daur ulang limbah plastik di Indonesia. Oleh karena itu
 						seluruh komponen fisik perusahaan didesain sedemikian rupa untuk sedapat mungkin memenuhi
 						standar industri paling modern. </p>
-					<p class="text-navy text-justify font-pala"><span style="font-size: 24px;">Teknologi dan
-							strategi</span> manajemen industri
+					<p class="text-navy text-justify font-pala">Teknologi dan
+						strategi manajemen industri
 						di PT Elite
 						Recycling Indonesia mengadopsi apa yang selama ini telah dibangun dan dikembangkan oleh PT
 						Elastis Reka Aktif. </p>

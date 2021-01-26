@@ -78,8 +78,7 @@
 					<p class="text-navy text-justify font-pala"> PT Elastis Reka Aktif kemudian memulai produksi kantong
 						plasti dengan merek LOCO, yang sekarang telah menjelma menjadi sebuah merek yang dikenal baik di
 						pasaran atas kualitasnya.</p>
-					<p class="text-navy text-justify font-pala"> <span style="font-size: 24px;">KANTONG PLASTIK
-							LOCO</span> Diproduksi dengan berbahan utama
+					<p class="text-navy text-justify font-pala">Kantong plastik LOCO diproduksi dengan berbahan utama
 						bahan hasil daur ulang limbah plastik yang diolah perusahaan.Peningkatan nilai tambah pada
 						barang jadi tersebut PT Elastis Reka Aktif didasari atas pengertian akan filosofi daur ulang,
 						yakni pengembalian limbah ke tingkat yang tertinggi mungkin pada tangga hirarki siklus hidup
